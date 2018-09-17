@@ -1,4 +1,6 @@
 
 # So.
 
-### <p>{{ "Hello World!" | downcase }}</p>
+## {{ "Hello World!" | downcase }}
+
+So this is what it looks like.
