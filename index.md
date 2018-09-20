@@ -1,4 +1,7 @@
-
+---
+layout: post
+title:  "Oh!"
+---
 # So.
 
 ## {{ "Hello World!" | downcase }}
