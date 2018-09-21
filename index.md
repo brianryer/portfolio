@@ -26,6 +26,7 @@ Adherence to grammar and style rules will ensure your content is legible, but le
   li:first-of-type {margin-top: 0;}
   li {margin: 0 1rem;}
   ul {columns: 2; margin: 0 0 1rem 0;}
+  ul li p {margin-top: 1rem;}
  </style>
 
 
