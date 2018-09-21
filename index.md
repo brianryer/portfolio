@@ -21,25 +21,25 @@ Adherence to grammar and style rules will ensure your content is legible, but le
 
 ----
 
-* Creating coherent topic structures
+- Creating coherent topic structures
 
-* Provision of simple navigation
+- Provision of simple navigation
 
-* Adherence to platform conventions
+- Adherence to platform conventions
 
-* Consistent use of vocabulary
+- Consistent use of vocabulary
 
-* Thorough indexing
+- Thorough indexing
 
-* Leverage of delivery channels
+- Leverage of delivery channels
 
-* Designing to user purposes
+- Designing to user purposes
 
-* Awareness of culture
+- Awareness of culture
 
-* Clean and presentable data
+- Clean and presentable data
 
-* Fidelity to subject matter
+- Fidelity to subject matter
 
 ---
 
