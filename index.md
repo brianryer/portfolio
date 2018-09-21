@@ -1,6 +1,6 @@
 I'm a technical writer, content manager, and information designer.
 
-Continue reading here to learn a little about my understanding of technical communication, or jump over to the blog for more recent writing. You can also reach me via email contact@brianryer.com or call me at +1 (503) 272-1842.
+Continue reading here to learn a little about my understanding of technical communication, or jump over to the blog for more recent writing. You can also reach me via email contact@brianryer.com or call me at +1&nbsp;(503)&nbsp;272-1842.
 
 ---
 
@@ -10,7 +10,7 @@ Technical communication connects those with information to those who need that i
 
 Technical communication delivers value by providing people with consistently relevant information in a way they can understand, enabling them to act on that information, and improve their productivity, their efficiency and, ultimately, their well being.
 
-Communicate with your customers, employees, stakeholders – any audience that you want to connect with – by focusing on three principles.
+Communicate with your customers, employees, stakeholders &ndash; any audience that you want to connect with &ndash; by focusing on three principles.
 
 <style>
 table tr td {vertical-align: top; width: 33%;}
@@ -36,7 +36,7 @@ Adherence to grammar and style rules will ensure your content is legible, but le
 - Creating coherent topic structures
 
 - Provision of simple navigation
-;
+
 - Adherence to platform conventions
 
 - Consistent use of vocabulary
@@ -64,6 +64,8 @@ I can help determine what content to manage, the details to capture, and what st
 
 Your content has value, and will have more value in the long term when managed reliably – and you won't need to carry around a whip and a chair to do it.
 
+---
+
 ## INFORMATION DESIGN & RELEVANCE
 "It's not what you say, but how you say it."
 
@@ -73,13 +75,16 @@ Information design can entail many levels of design considerations – from page
 
 For information providers, the most valuable commodity is the audience's attention. Your audience is made up of individuals with a story and an outlook. Present content relevant to their perspective, reward their attention and you will keep their attention.
 
+---
+
 # SUMMARY & NEXT STEPS
 
 Craft your content with high fidelity to the subject matter while keeping the principles of readability in mind.
 Manage that content with care, in reliable systems that leverage the delivery channel's strongest features.
 Consistently provide relevant, engaging information to your audiences.
 The result is effective technical communication. Let's work on the process together.
-ryer_keyboard.jpeg
+
+---
 
 # AVAILABILITY
 I am currently available for short and long term contract work. Please contact me with your project details.
