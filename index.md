@@ -86,51 +86,6 @@ The result is effective technical communication. Let's work on the process toget
 
 ---
 
-### AVAILABILITY
-I am currently available for short and long term contract work. Please contact me with your project details.
-
-### SERVICES
-
-##### TECHNICAL WRITING
-
-User Manuals
-Online Help
-White Papers
-Bids & Proposals
-Product Descriptions
-Tech Articles
-Newsletters
-Social Media Copy
-
-##### CONTENT MANAGEMENT
-
-Content Analysis
-Content Evaluation
-Keywords & Tagging
-Database Population
-CMS Maintenance
-Marketing Support
-Social Media Wrangling
-Archiving
-
-##### INFORMATION DESIGN
-
-Process Mapping
-Navigation & Structure
-Taxonomies
-Vocabularies
-Indexing
-Data Graphics
-Flow Charts
-Presentation Decks
-
-### RATES
- 	 	Technical Writing	$45/hr
- 	 	Content Management	$60/hr
- 	 	Information Design	$75/hr
-
-My rates are negotiable. I am open to working on a per page, module, document, site or project basis. Contact me with information about your budget and plans to see how we can work together.
-
 
 So this is what it looks like.
 
