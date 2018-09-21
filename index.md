@@ -10,24 +10,28 @@ Technical communication delivers value by providing people with consistently rel
 
 Communicate with your customers, employees, stakeholders – any audience that you want to connect with – by focusing on three principles.\
 
-| ## Readability | ## Reliability | ## Relevance|
+| Readability | Reliability | Relevance|
 | --- | --- | --- |
 | Clear, concise, and contextually appropriate messages are the core of successful communication. | Well managed content and delivery systems provide consistency, which builds trust.| Each audience has a point of view. Speak to their perspective and reward their attention. |
 
 ## TECHNICAL WRITING & READABILITY
 Readability is the foundation of successful technical writing.
 
-Adherence to grammar and style rules will ensure your content is legible, but legibility is just the baseline. Readable text is not only clear, direct, and easily understood, but also informative and engaging. This is a function of many factors
-Creating coherent topic structures
-Provision of simple navigation
-Adherence to platform conventions
-Consistent use of vocabulary
-Thorough indexing
-Leverage of delivery channels
-Designing to user purposes
-Awareness of culture
-Clean and presentable data
-Fidelity to subject matter
+Adherence to grammar and style rules will ensure your content is legible, but legibility is just the baseline. Readable text is not only clear, direct, and easily understood, but also informative and engaging. This is a function of many factors:
+
+<section class="2col">
+* Creating coherent topic structures
+* Provision of simple navigation
+* Adherence to platform conventions
+* Consistent use of vocabulary
+* Thorough indexing
+* Leverage of delivery channels
+* Designing to user purposes
+* Awareness of culture
+* Clean and presentable data
+* Fidelity to subject matter
+</section>
+
 Keeping these factors in mind during content creation ensures the content is highly readable, in the format and context most appropriate for the audience. Content that is clear, accurate, and inviting to your audience – this is content that is read, and that is the point, isn't it?
 
 ## CONTENT MANAGEMENT & RELIABILITY
@@ -39,7 +43,9 @@ Your content has value, and will have more value in the long term when managed r
 
 ## INFORMATION DESIGN & RELEVANCE
 "It's not what you say, but how you say it."
+
 Information design is the art and science of how you say it.
+
 Information design can entail many levels of design considerations – from page layout and typography, to knowledge maps and topic hierarchies and beyond, to database structures, software development and management practices, production frameworks, and related challenges. At any level, the goal is to present information in the most clear and effective way possible and, at every level, an emphasis on relevance brings the best choices into clear focus.
 
 For information providers, the most valuable commodity is the audience's attention. Your audience is made up of individuals with a story and an outlook. Present content relevant to their perspective, reward their attention and you will keep their attention.
