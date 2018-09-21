@@ -25,10 +25,10 @@ Adherence to grammar and style rules will ensure your content is legible, but le
 <style>
 li:first-of-type {margin-top: 0;}
 li {margin: 0 1rem;}
-div.2col {columns: 2;}
+div.col2 {columns: 2;}
  </style>
 
-<div class="2col">
+<div class="col2">
 
 - Creating coherent topic structures
 
