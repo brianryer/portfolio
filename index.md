@@ -14,7 +14,7 @@ Communicate with your customers, employees, stakeholders – any audience that y
 
 <style>
 table tr td {vertical-align: top; width: 33%;}
-hr {width: 110%; margin: 1rem 0;}
+hr {width: 101%; margin: 1rem 0;}
 </style>
 
 | Readability | Reliability | Relevance|
@@ -52,7 +52,6 @@ Adherence to grammar and style rules will ensure your content is legible, but le
 - Clean and presentable data
 
 - Fidelity to subject matter
-
 
 Keeping these factors in mind during content creation ensures the content is highly readable, in the format and context most appropriate for the audience. Content that is clear, accurate, and inviting to your audience – this is content that is read, and that is the point, isn't it?
 
