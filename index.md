@@ -14,14 +14,12 @@ Communicate with your customers, employees, stakeholders – any audience that y
 
 <style>
 table tr td {vertical-align: top; width: 33%;}
-hr {width: 110%;}
+hr {width: 110%; margin: 1rem 0;}
 </style>
 
 | Readability | Reliability | Relevance|
 | --- | --- | --- |
 | Clear, concise, and contextually appropriate messages are the core of successful communication. | Well managed content and delivery systems provide consistency, which builds trust.| Each audience has a point of view. Speak to their perspective and reward their attention. |
-
----
 
 ## TECHNICAL WRITING & READABILITY
 Readability is the foundation of successful technical writing.
