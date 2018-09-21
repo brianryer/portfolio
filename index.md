@@ -25,13 +25,13 @@ Adherence to grammar and style rules will ensure your content is legible, but le
   li:first-of-type {margin-top: 0;}
   ul li {margin: 0 1rem;}
   ul li p {margin: 0;}
-  ul {columns: 2; padding-left: 0.5rem; margin: 0;}
+  ul {columns: 2; padding-left: 0.5rem; margin: 0 0 2rem 0; width: 110%}
  </style>
 
 - Creating coherent topic structures
 
 - Provision of simple navigation
-
+;
 - Adherence to platform conventions
 
 - Consistent use of vocabulary
