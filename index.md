@@ -25,10 +25,9 @@ Adherence to grammar and style rules will ensure your content is legible, but le
 <style>
 li:first-of-type {margin-top: 0;}
 li {margin: 0 1rem;}
-div.col2 {columns: 2;}
+ul {columns: 2;}
  </style>
 
-<div class="col2">
 
 - Creating coherent topic structures
 
@@ -50,7 +49,7 @@ div.col2 {columns: 2;}
 
 - Fidelity to subject matter
 
-</div>
+
 ---
 
 Keeping these factors in mind during content creation ensures the content is highly readable, in the format and context most appropriate for the audience. Content that is clear, accurate, and inviting to your audience – this is content that is read, and that is the point, isn't it?
