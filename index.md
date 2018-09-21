@@ -10,11 +10,11 @@ Technical communication connects those with information to those who need that i
 
 Technical communication delivers value by providing people with consistently relevant information in a way they can understand, enabling them to act on that information, and improve their productivity, their efficiency and, ultimately, their well being.
 
-Communicate with your customers, employees, stakeholders – any audience that you want to connect with – by focusing on three principles.\
+Communicate with your customers, employees, stakeholders – any audience that you want to connect with – by focusing on three principles.
 
 <style>
 table tr td {vertical-align: top; width: 33%;}
-hr {width: 101%; margin: 1rem 0;}
+hr {width: 100%; margin: 1rem 0;}
 </style>
 
 | Readability | Reliability | Relevance|
@@ -30,8 +30,8 @@ Adherence to grammar and style rules will ensure your content is legible, but le
   li:first-of-type {margin-top: 0;}
   ul li {margin: 0 1rem;}
   ul li p {margin: 0;}
-  ul {columns: 2; padding-left: 0.5rem; margin: 0 0 2rem 0; width: 110%}
- </style>
+  ul {columns: 2; padding-left: 0.5rem; margin: 0 0 1rem 0; width: 110%}
+</style>
 
 - Creating coherent topic structures
 
