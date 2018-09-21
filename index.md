@@ -2,6 +2,8 @@ I'm a technical writer, content manager, and information designer.
 
 Continue reading here to learn a little about my understanding of technical communication, or jump over to the blog for more recent writing. You can also reach me via email contact@brianryer.com or call me at +1 (503) 272-1842.
 
+---
+
 # TECHNICAL COMMUNICATION
 
 Technical communication connects those with information to those who need that information. It connects your message to your audience, your clients to your products and services, your employees to your organizational goals.
@@ -18,6 +20,8 @@ table tr td {vertical-align: top; width: 33%;}
 | Readability | Reliability | Relevance|
 | --- | --- | --- |
 | Clear, concise, and contextually appropriate messages are the core of successful communication. | Well managed content and delivery systems provide consistency, which builds trust.| Each audience has a point of view. Speak to their perspective and reward their attention. |
+
+---
 
 ## TECHNICAL WRITING & READABILITY
 Readability is the foundation of successful technical writing.
@@ -53,6 +57,8 @@ Adherence to grammar and style rules will ensure your content is legible, but le
 
 
 Keeping these factors in mind during content creation ensures the content is highly readable, in the format and context most appropriate for the audience. Content that is clear, accurate, and inviting to your audience – this is content that is read, and that is the point, isn't it?
+
+---
 
 ## CONTENT MANAGEMENT & RELIABILITY
 Over time, two things happen to content: it expands and delivery options for it multiply. As a result, managing content is simple in the same way that lion taming is simple – what needs to be done is easy to understand, but doing it requires expertise, stamina, and even a little courage.
