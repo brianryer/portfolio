@@ -10,7 +10,7 @@ Technical communication delivers value by providing people with consistently rel
 
 Communicate with your customers, employees, stakeholders – any audience that you want to connect with – by focusing on three principles.\
 
-<style> table tr {vertical-align: top;}</style>
+<style> table tr td {vertical-align: top;}</style>
 
 | Readability | Reliability | Relevance|
 | --- | --- | --- |
