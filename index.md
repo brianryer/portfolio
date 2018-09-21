@@ -4,7 +4,7 @@ Continue reading here to learn a little about my understanding of technical comm
 
 ---
 
-# TECHNICAL COMMUNICATION
+### TECHNICAL COMMUNICATION
 
 Technical communication connects those with information to those who need that information. It connects your message to your audience, your clients to your products and services, your employees to your organizational goals.
 
@@ -21,7 +21,7 @@ hr {width: 100%; margin: 1rem 0;}
 | --- | --- | --- |
 | Clear, concise, and contextually appropriate messages are the core of successful communication. | Well managed content and delivery systems provide consistency, which builds trust.| Each audience has a point of view. Speak to their perspective and reward their attention. |
 
-## TECHNICAL WRITING & READABILITY
+##### TECHNICAL WRITING & READABILITY
 Readability is the foundation of successful technical writing.
 
 Adherence to grammar and style rules will ensure your content is legible, but legibility is just the baseline. Readable text is not only clear, direct, and easily understood, but also informative and engaging. This is a function of many factors:
@@ -57,7 +57,7 @@ Keeping these factors in mind during content creation ensures the content is hig
 
 ---
 
-## CONTENT MANAGEMENT & RELIABILITY
+##### CONTENT MANAGEMENT & RELIABILITY
 Over time, two things happen to content: it expands and delivery options for it multiply. As a result, managing content is simple in the same way that lion taming is simple – what needs to be done is easy to understand, but doing it requires expertise, stamina, and even a little courage.
 
 I can help determine what content to manage, the details to capture, and what storage best suits the delivery channels required for the information to be communicated. These determinations support good decision making about what tools provide the most reliability and flexibility within budget priorities and extant time frames. What works could simply be a handful of index cards or a 100 page presentation deck, a no-frills blogging platform or a large scale CMS, a personal wiki or ad-hoc cloud based collaboration framework. Whether maintaining your content in existing systems, migrating to more appropriate systems, or simply getting started, I can help you develop the right methods and find the right tools to manage your content.
@@ -66,7 +66,7 @@ Your content has value, and will have more value in the long term when managed r
 
 ---
 
-## INFORMATION DESIGN & RELEVANCE
+##### INFORMATION DESIGN & RELEVANCE
 "It's not what you say, but how you say it."
 
 Information design is the art and science of how you say it.
@@ -77,7 +77,7 @@ For information providers, the most valuable commodity is the audience's attenti
 
 ---
 
-# SUMMARY & NEXT STEPS
+### SUMMARY & NEXT STEPS
 
 Craft your content with high fidelity to the subject matter while keeping the principles of readability in mind.
 Manage that content with care, in reliable systems that leverage the delivery channel's strongest features.
@@ -86,12 +86,12 @@ The result is effective technical communication. Let's work on the process toget
 
 ---
 
-# AVAILABILITY
+### AVAILABILITY
 I am currently available for short and long term contract work. Please contact me with your project details.
 
-# SERVICES
+### SERVICES
 
-## TECHNICAL WRITING
+##### TECHNICAL WRITING
 
 User Manuals
 Online Help
@@ -102,7 +102,7 @@ Tech Articles
 Newsletters
 Social Media Copy
 
-## CONTENT MANAGEMENT
+##### CONTENT MANAGEMENT
 
 Content Analysis
 Content Evaluation
@@ -113,7 +113,7 @@ Marketing Support
 Social Media Wrangling
 Archiving
 
-## INFORMATION DESIGN
+##### INFORMATION DESIGN
 
 Process Mapping
 Navigation & Structure
@@ -124,7 +124,7 @@ Data Graphics
 Flow Charts
 Presentation Decks
 
-# RATES
+### RATES
  	 	Technical Writing	$45/hr
  	 	Content Management	$60/hr
  	 	Information Design	$75/hr
