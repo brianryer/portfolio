@@ -93,4 +93,4 @@ RATES
  	 	Technical Writing	$45/hr
  	 	Content Management	$60/hr
  	 	Information Design	$75/hr
-My rates are negotiable. I am open to working on a per page, module, document, site or project basis. Contact me with information about your budget and plans to see how we can work together.
+My rates are negotiable. I am open to working on a per page, module, document, site or project basis. Contact me with information about your budget and plans to see how we can work together.\
