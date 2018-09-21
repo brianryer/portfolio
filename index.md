@@ -22,8 +22,13 @@ Readability is the foundation of successful technical writing.
 Adherence to grammar and style rules will ensure your content is legible, but legibility is just the baseline. Readable text is not only clear, direct, and easily understood, but also informative and engaging. This is a function of many factors:
 
 ----
-<style> li {margin-top: 0;}</style>
+<style>
+li:first-of-type {margin-top: 0;}
+li {margin: 0 1rem;}
+ </style>
+
 <div style="columns: 2;">
+
 - Creating coherent topic structures
 
 - Provision of simple navigation
@@ -43,6 +48,7 @@ Adherence to grammar and style rules will ensure your content is legible, but le
 - Clean and presentable data
 
 - Fidelity to subject matter
+
 </div>
 ---
 
