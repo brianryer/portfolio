@@ -73,7 +73,7 @@ Information design is the art and science of how you say it.
 
 Information design can entail many levels of design considerations – from page layout and typography, to knowledge maps and topic hierarchies and beyond, to database structures, software development and management practices, production frameworks, and related challenges. At any level, the goal is to present information in the most clear and effective way possible and, at every level, an emphasis on relevance brings the best choices into clear focus.
 
-For information providers, the most valuable commodity is the audience's attention. Your audience is made up of individuals with a story and an outlook. Present content relevant to their perspective, reward their attention and you will keep their attention.
+For information providers, the most valuable commodity is the audience's attention. Your audience is made up of individuals with a story and an outlook. Present content relevant to their perspective; reward their attention and you will keep their attention.
 
 ---
 
