@@ -1,6 +1,4 @@
-I'm Brian Ryer and this is my personal website.
-
-If you're looking for my professional site, you've found it.
+I'm Brian Ryer and if you're looking for my professional site, you've found it.
 
 This site is meant to serve mostly as a place to let people know about my services; it's also a little bit for my own diversion and, perhaps, your's as well. 
 
