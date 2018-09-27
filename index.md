@@ -1,6 +1,6 @@
 I'm a technical writer, content manager, and information designer.
 
-Continue reading here to learn a little about my understanding of technical communication, or jump over to the blog for more recent writing. You can also reach me via email (contact@brianryer.com) or call +1&nbsp;(503)&nbsp;272&#8209;1842.
+Continue reading here to learn a little about my understanding of technical communication, or [about me](/about.md). You can also reach me via email (contact@brianryer.com) or call +1&nbsp;(503)&nbsp;272&#8209;1842.
 
 ---
 
