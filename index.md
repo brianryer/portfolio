@@ -85,8 +85,3 @@ Consistently provide relevant, engaging information to your audiences.
 The result is effective technical communication. Let's work on the process together.
 
 ---
-
-
-So this is what it looks like.
-
-[this](readme2.md)
