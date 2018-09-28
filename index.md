@@ -23,7 +23,7 @@ Communicate with your customers, employees, stakeholders &ndash; any audience th
 
 Adherence to grammar and style rules will ensure your content is legible, but legibility is just the baseline. Readable text is not only clear, direct, and easily understood, but also informative and engaging. This is a function of many factors:
 
-{:.ul-cols-two}
+{:.cols-two}
 - Creating coherent topic structures
 
 - Provision of simple navigation
@@ -74,8 +74,6 @@ Craft your content with high fidelity to the subject matter while keeping the pr
 Manage that content with care, in reliable systems that leverage the delivery channel's strongest features.
 Consistently provide relevant, engaging information to your audiences.
 The result is effective technical communication. Let's work on the process together.
-
----
 
 [1]:	/about.md
 [2]:	mailto:contact@brianryer.com
