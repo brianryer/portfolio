@@ -23,13 +23,6 @@ Readability is the foundation of successful technical writing.
 
 Adherence to grammar and style rules will ensure your content is legible, but legibility is just the baseline. Readable text is not only clear, direct, and easily understood, but also informative and engaging. This is a function of many factors:
 
-<style>
-  li:first-of-type {margin-top: 0;}
-  ul li {margin: 0 1rem;}
-  ul li p {margin: 0;}
-  ul {columns: 2; padding-left: 0.5rem; margin: 0 0 1rem 0; width: 110%}
-</style>
-
 - Creating coherent topic structures
 
 - Provision of simple navigation
@@ -82,3 +75,11 @@ Consistently provide relevant, engaging information to your audiences.
 The result is effective technical communication. Let's work on the process together.
 
 ---
+<style> 
+  table tr td {vertical-align: top; width: 33%;}
+  hr {width: 100%; margin: 1rem 0;}
+  li:first-of-type {margin-top: 0;}
+  ul li {margin: 0 1rem;}
+  ul li p {margin: 0;}
+  ul {columns: 2; padding-left: 0.5rem; margin: 0 0 1rem 0; width: 110%}
+</style>
