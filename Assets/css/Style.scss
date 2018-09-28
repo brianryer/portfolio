@@ -1,4 +1,6 @@
 ---
 ---
 
-@import "{{ jekyll.theme.minimal }}";
+@import "{{ site.theme }}";
+
+section h1 {color: red !important; font-size: 200% !important}
