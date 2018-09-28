@@ -14,11 +14,6 @@ Technical communication delivers value by providing people with consistently rel
 
 Communicate with your customers, employees, stakeholders &ndash; any audience that you want to connect with &ndash; by focusing on three principles.
 
-<style>
-table tr td {vertical-align: top; width: 33%;}
-hr {width: 100%; margin: 1rem 0;}
-</style>
-
 | Readability | Reliability | Relevance|
 | --- | --- | --- |
 | Clear, concise, and contextually appropriate messages are the core of successful communication. | Well managed content and delivery systems provide consistency, which builds trust.| Each audience has a point of view. Speak to their perspective and reward their attention. |
@@ -27,13 +22,6 @@ hr {width: 100%; margin: 1rem 0;}
 Readability is the foundation of successful technical writing.
 
 Adherence to grammar and style rules will ensure your content is legible, but legibility is just the baseline. Readable text is not only clear, direct, and easily understood, but also informative and engaging. This is a function of many factors:
-
-<style>
-  li:first-of-type {margin-top: 0;}
-  ul li {margin: 0 1rem;}
-  ul li p {margin: 0;}
-  ul {columns: 2; padding-left: 0.5rem; margin: 0 0 1rem 0; width: 110%}
-</style>
 
 - Creating coherent topic structures
 
@@ -87,3 +75,11 @@ Consistently provide relevant, engaging information to your audiences.
 The result is effective technical communication. Let's work on the process together.
 
 ---
+<style> 
+  table tr td {vertical-align: top; width: 33%;}
+  hr {width: 100%; margin: 1rem 0;}
+  li:first-of-type {margin-top: 0;}
+  ul li {margin: 0 1rem;}
+  ul li p {margin: 0;}
+  ul {columns: 2; padding-left: 0.5rem; margin: 0 0 1rem 0; width: 110%}
+</style>

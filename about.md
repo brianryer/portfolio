@@ -4,7 +4,11 @@ I'm Brian Ryer and if you're looking for my professional site, you've found it.
 
 This site is meant to serve mostly as a place to let people know about my services; it's also a little bit for my own diversion and, perhaps, your's as well. 
 
+<<<<<<< HEAD
 I live with my family in the Pacific Northwest – Portland, Oregon specifically, where we enjoy as many of the things the area has to offer that time, resources and inclination allow. It is a beautiful part of the country, both in the natural surroundings and in the kind of people that have been drawn to it over the years. Viva Cascadia!
+=======
+I live with my family in the Pacific Northwest – Portland, Oregon specifically – where we enjoy as many of the things the area has to offer that time, resources and inclination allow. It is a beautiful part of the country, both in the natural surroundings and in the kind of people that have been drawn to it over the years. Viva Cascadia!
+>>>>>>> 0c408cb883c714cfeff5d36956090a16fc8a4ec1
 
 I didn't always live here.
 
