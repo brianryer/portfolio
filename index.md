@@ -55,7 +55,7 @@ Keeping these factors in mind during content creation ensures the content is hig
 
 ##### CONTENT MANAGEMENT & RELIABILITY
 
-![Label Tag](/assets/img/ib_label_tag.png){:class="image-bullet"}
+![Label Tag](/assets/img/ib_label_tag.png){:class="image-bullet upit"}
 
 Over time, two things happen to content: it expands and delivery options for it multiply. As a result, managing content is simple in the same way that lion taming is simple – what needs to be done is easy to understand, but doing it requires expertise, stamina, and even a little courage.
 
@@ -67,7 +67,7 @@ Your content has value, and will have more value in the long term when managed r
 
 ##### INFORMATION DESIGN & RELEVANCE
 
-![View Master](/assets/img/ib_view_master.png){:.image-bullet}
+![View Master](/assets/img/ib_view_master.png){:.image-bullet.upit}
 
 "It's not what you say, but how you say it."
 
