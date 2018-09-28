@@ -2,7 +2,7 @@
 
 I'm Brian Ryer, a technical writer, content manager, and information designer.
 
-Continue reading here to learn a little about my understanding of technical communication. You can also read more [about me ](/about.md)or reach out directly via email [contact@brianryer.com](mailto:contact@brianryer.com) or voice +1&nbsp;(503)&nbsp;272&#8209;1842).
+Continue reading here to learn a little about my understanding of technical communication. You can also read more [about me ][1]or reach out directly via email [contact@brianryer.com][2] or voice +1&nbsp;(503)&nbsp;272&#8209;1842).
 
 ---
 
@@ -19,7 +19,7 @@ Communicate with your customers, employees, stakeholders &ndash; any audience th
 | Clear, concise, and contextually appropriate messages are the core of successful communication. | Well managed content and delivery systems provide consistency, which builds trust.| Each audience has a point of view. Speak to their perspective and reward their attention. |
 
 ##### TECHNICAL WRITING & READABILITY
-Readability is the foundation of successful technical writing.
+![]()Readability is the foundation of successful technical writing.
 
 Adherence to grammar and style rules will ensure your content is legible, but legibility is just the baseline. Readable text is not only clear, direct, and easily understood, but also informative and engaging. This is a function of many factors:
 
@@ -43,7 +43,7 @@ Adherence to grammar and style rules will ensure your content is legible, but le
 
 - Fidelity to subject matter
 
-Keeping these factors in mind during content creation ensures the content is highly readable, in the format and context most appropriate for the audience. Content that is clear, accurate, and inviting to your audience – this is content that is read, and that is the point, isn't it?
+Keeping these factors in mind during content creation ensures the content is highly readable, in the format and context most appropriate for the audience. Content that is clear, accurate, and inviting to your audience &ndash; this is content that is read, and that is the point, isn't it?
 
 ---
 
@@ -52,7 +52,7 @@ Over time, two things happen to content: it expands and delivery options for it 
 
 I can help determine what content to manage, the details to capture, and what storage best suits the delivery channels required for the information to be communicated. These determinations support good decision making about what tools provide the most reliability and flexibility within budget priorities and extant time frames. What works could simply be a handful of index cards or a 100 page presentation deck, a no-frills blogging platform or a large scale CMS, a personal wiki or ad-hoc cloud based collaboration framework. Whether maintaining your content in existing systems, migrating to more appropriate systems, or simply getting started, I can help you develop the right methods and find the right tools to manage your content.
 
-Your content has value, and will have more value in the long term when managed reliably – and you won't need to carry around a whip and a chair to do it.
+Your content has value, and will have more value in the long term when managed reliably &ndash; and you won't need to carry around a whip and a chair to do it.
 
 ---
 
@@ -76,12 +76,6 @@ The result is effective technical communication. Let's work on the process toget
 
 ---
 
-<style>
-table tr td {vertical-align: top; width: 33%;}
-hr {width: 100%; margin: 1rem 0;}
+[1]:	/about.md
+[2]:	mailto:contact@brianryer.com
 
-li:first-of-type {margin-top: 0;}
-ul li {margin: 0 1rem;}
-ul li p {margin: 0;}
-ul {columns: 2; padding-left: 0.5rem; margin: 0 0 1rem 0; width: 110%}
-</style>
