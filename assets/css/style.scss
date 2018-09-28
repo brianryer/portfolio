@@ -3,10 +3,10 @@
 
 @import "{{ site.theme }}";
 
-section h1 {color: inherit !important; font-size: 250% !important}
+section h1 {color: inherit !important; font-size: 250% !important;}
 table tr td {vertical-align: top !important; width: 33%;}
 hr {width: 100%; margin: 1rem 0;}
 li:first-of-type {margin-top: 0;}
-ul.cols-two {columns: 2; padding-left: 0.5rem; margin: 0 0 1rem 0; width: 110%}
+ul.cols-two {columns: 2; padding-left: 0.5rem; margin: 0 0 1rem 0; width: 110%;}
 ul li {margin: 0 1rem;}
 ul li p {margin: 0;}
