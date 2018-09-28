@@ -1,5 +1,5 @@
 title: brianryer
 description: Enough with the taglines already!
 theme: jekyll-theme-minimal
-avatar: "assets/img/forum_image_square.jpg"
-logo: "assets/img/forum_image_square.jpg"
+avatar: "/assets/img/forum_image_square.png"
+logo: "/assets/img/forum_image_square.png"
