@@ -22,7 +22,7 @@ Communicate with your customers, employees, stakeholders &ndash; any audience th
 
 ##### TECHNICAL WRITING & READABILITY
 
-![Letter Tile](/assets/img/ib_scrabble_t.png){:class="image-bullet"}
+![Letter Tile](/assets/img/ib_scrabble_t.png){:.image-bullet}
 
 Readability is the foundation of successful technical writing.
 
@@ -55,7 +55,7 @@ Keeping these factors in mind during content creation ensures the content is hig
 
 ##### CONTENT MANAGEMENT & RELIABILITY
 
-![Label Tag](/assets/img/ib_label_tag.png){:class="image-bullet upit"}
+![Label Tag](/assets/img/ib_label_tag.png){:.image-bullet.upit}
 
 Over time, two things happen to content: it expands and delivery options for it multiply. As a result, managing content is simple in the same way that lion taming is simple – what needs to be done is easy to understand, but doing it requires expertise, stamina, and even a little courage.
 
