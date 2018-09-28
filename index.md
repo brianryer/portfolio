@@ -23,8 +23,8 @@ Communicate with your customers, employees, stakeholders &ndash; any audience th
 
 Adherence to grammar and style rules will ensure your content is legible, but legibility is just the baseline. Readable text is not only clear, direct, and easily understood, but also informative and engaging. This is a function of many factors:
 
-{:.ul-cols-two
-- Creating coherent topic structures}
+{:.ul-cols-two}
+- Creating coherent topic structures
 
 - Provision of simple navigation
 
