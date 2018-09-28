@@ -14,11 +14,6 @@ Technical communication delivers value by providing people with consistently rel
 
 Communicate with your customers, employees, stakeholders &ndash; any audience that you want to connect with &ndash; by focusing on three principles.
 
-<style>
-table tr td {vertical-align: top; width: 33%;}
-hr {width: 100%; margin: 1rem 0;}
-</style>
-
 | Readability | Reliability | Relevance|
 | --- | --- | --- |
 | Clear, concise, and contextually appropriate messages are the core of successful communication. | Well managed content and delivery systems provide consistency, which builds trust.| Each audience has a point of view. Speak to their perspective and reward their attention. |
