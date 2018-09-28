@@ -19,8 +19,10 @@ Communicate with your customers, employees, stakeholders &ndash; any audience th
 | Clear, concise, and contextually appropriate messages are the core of successful communication. | Well managed content and delivery systems provide consistency, which builds trust.| Each audience has a point of view. Speak to their perspective and reward their attention. |
 
 
-{:class="image-bullet"}![Letter Tile](/assets/img/ib_scrabble_t.png)
+
 ##### TECHNICAL WRITING & READABILITY
+
+![Letter Tile](/assets/img/ib_scrabble_t.png){:class="image-bullet"}
 
 Readability is the foundation of successful technical writing.
 
@@ -51,8 +53,10 @@ Keeping these factors in mind during content creation ensures the content is hig
 
 ---
 
-{:class="image-bullet"}![Label Tag](/assets/img/ib_label_tag.png)
 ##### CONTENT MANAGEMENT & RELIABILITY
+
+![Label Tag](/assets/img/ib_label_tag.png){:class="image-bullet"}
+
 Over time, two things happen to content: it expands and delivery options for it multiply. As a result, managing content is simple in the same way that lion taming is simple – what needs to be done is easy to understand, but doing it requires expertise, stamina, and even a little courage.
 
 I can help determine what content to manage, the details to capture, and what storage best suits the delivery channels required for the information to be communicated. These determinations support good decision making about what tools provide the most reliability and flexibility within budget priorities and extant time frames. What works could simply be a handful of index cards or a 100 page presentation deck, a no-frills blogging platform or a large scale CMS, a personal wiki or ad-hoc cloud based collaboration framework. Whether maintaining your content in existing systems, migrating to more appropriate systems, or simply getting started, I can help you develop the right methods and find the right tools to manage your content.
@@ -61,8 +65,10 @@ Your content has value, and will have more value in the long term when managed r
 
 ---
 
-{:.image-bullet}![View Master](/assets/img/ib_view_master.png)
 ##### INFORMATION DESIGN & RELEVANCE
+
+![View Master](/assets/img/ib_view_master.png){:.image-bullet}
+
 "It's not what you say, but how you say it."
 
 Information design is the art and science of how you say it.
