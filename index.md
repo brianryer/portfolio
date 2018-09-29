@@ -1,4 +1,4 @@
-# Hello
+# Hello.
 
 I'm Brian Ryer: technical writer, content manager, and information designer.
 
