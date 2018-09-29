@@ -24,7 +24,7 @@ Communicate with your customers, employees, stakeholders &ndash; any audience th
 
 ![Letter Tile](/assets/img/ib_scrabble_t.png){:.image-bullet}
 
-{:.slogan}Readability is the foundation of successful technical writing.
+Readability is the foundation of successful technical writing.{:.inline-slogan}
 
 Adherence to grammar and style rules will ensure your content is legible, but legibility is just the baseline. Readable text is not only clear, direct, and easily understood, but also informative and engaging. This is a function of many factors:
 
@@ -69,7 +69,7 @@ Your content has value, and will have more value in the long term when managed r
 
 ![View Master](/assets/img/ib_view_master.png){:.image-bullet.upit}
 
-{:.slogan}"It's not what you say, but how you say it."
+"It's not what you say, but how you say it."{:.inline-slogan}
 
 Information design is the art and science of how you say it.
 
@@ -84,5 +84,6 @@ For information providers, the most valuable commodity is the audience's attenti
 Craft your content with high fidelity to the subject matter while keeping the principles of readability in mind.
 Manage that content with care, in reliable systems that leverage the delivery channel's strongest features.
 Consistently provide relevant, engaging information to your audiences.
-The result is effective technical communication. Let's work on the process together.
+
+The result is successful technical communication.
 
