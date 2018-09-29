@@ -83,9 +83,11 @@ For information providers, the most valuable commodity is the audience's attenti
 
 ### SUMMARY & NEXT STEPS
 
-Craft your content with high fidelity to the subject matter while keeping the principles of readability in mind.
-Manage that content with care, in reliable systems that leverage the delivery channel's strongest features.
-Consistently provide relevant, engaging information to your audiences.
+- Craft your content with high fidelity to the subject matter while keeping the principles of readability in mind.
+
+- Manage that content with care, in reliable systems that leverage the delivery channel's strongest features.
+
+- Consistently provide relevant, engaging information to your audiences.
 
 The result is successful technical communication.
 
