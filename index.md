@@ -1,6 +1,6 @@
-# Hello
+# Hello, I'm Brian Ryer
 
-I'm Brian Ryer, a technical writer, content manager, and information designer.
+Technical writer, content manager, and information designer.
 
 Continue reading here to learn a little about my understanding of technical communication. You can also read more [about me ](/about.md)or reach out directly via email [contact@brianryer.com](mailto:contact@brianryer.com) or voice +1&nbsp;(503)&nbsp;272&#8209;1842).
 
@@ -25,11 +25,11 @@ Communicate with your customers, employees, stakeholders &ndash; any audience th
 ![Letter Tile](/assets/img/ib_scrabble_t.png){:.image-bullet}
 
 Readability is the foundation of successful technical writing.
-{:class="inline-slogan"}
+{: .inline-slogan}
 
 Adherence to grammar and style rules will ensure your content is legible, but legibility is just the baseline. Readable text is not only clear, direct, and easily understood, but also informative and engaging. This is a function of many factors:
 
-{:.cols-two}
+{:. cols-two}
 - Creating coherent topic structures
 
 - Provision of simple navigation
@@ -56,7 +56,7 @@ Keeping these factors in mind during content creation ensures the content is hig
 
 ##### CONTENT MANAGEMENT & RELIABILITY
 
-![Label Tag](/assets/img/ib_label_tag.png){:.image-bullet.upit}
+![Label Tag](/assets/img/ib_label_tag.png){: .image-bullet.upit}
 
 Over time, two things happen to content: it expands and delivery options for it multiply. As a result, managing content is simple in the same way that lion taming is simple – what needs to be done is easy to understand, but doing it requires expertise, stamina, and even a little courage.
 
@@ -68,10 +68,10 @@ Your content has value, and will have more value in the long term when managed r
 
 ##### INFORMATION DESIGN & RELEVANCE
 
-![View Master](/assets/img/ib_view_master.png){:.image-bullet.upit}
+![View Master](/assets/img/ib_view_master.png){: .image-bullet.upit}
 
 "It's not what you say, but how you say it."
-{:.inline-slogan}
+{: .inline-slogan}
 
 Information design is the art and science of how you say it.
 
