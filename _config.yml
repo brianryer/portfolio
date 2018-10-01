@@ -2,8 +2,6 @@ title: Brian Ryer
 description: Writer, Developer
 theme: jekyll-theme-minimal
 logo: "/assets/img/forum_image_square.png"
-collections:
-  taglines:
-    morning: You look great!
-    evening: Enough with the taglines already!
-    special: Soup is good food.
+tagline_morning: You look great!
+tagline_evening: Enough with the taglines already!
+tagline_special: Soup is good food.
