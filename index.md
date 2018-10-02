@@ -2,7 +2,7 @@
 
 I'm Brian Ryer: technical writer, content manager, and information designer.
 
-Continue reading here to learn a little about my understanding of technical communication. You can also read more [about me ](/about.md)or reach out directly via email [contact@brianryer.com](mailto:contact@brianryer.com) or voice +1&nbsp;(503)&nbsp;272&#8209;1842).
+Continue reading here to learn a little about my understanding of technical communication. You can also read more [about me ](/about.md "About Brian Ryer")or reach out directly via email [contact@brianryer.com](mailto:contact@brianryer.com) or voice +1&nbsp;(503)&nbsp;272&#8209;1842).
 
 ---
 
@@ -20,7 +20,7 @@ Communicate with your customers, employees, stakeholders&mdash;any audience that
 
 ##### TECHNICAL WRITING & READABILITY
 
-![Letter Tile](/assets/img/ib_scrabble_t.png){:.image-bullet}
+![Letter Tile](/assets/img/ib_scrabble_t.png "Letter Tile"){:.image-bullet}
 
 Readability is the foundation of successful technical writing.
 {: .inline-slogan}
@@ -45,7 +45,7 @@ Keeping these factors in mind during content creation ensures the content is hig
 
 ##### CONTENT MANAGEMENT & RELIABILITY
 
-![Label Tag](/assets/img/ib_label_tag.png){: .image-bullet.upit}
+![Label Tag](/assets/img/ib_label_tag.png "Label Tag"){: .image-bullet.upit}
 
 Over time, two things happen to content: it expands and delivery options for it multiply. As a result, managing content is simple in the same way that lion taming is simple&mdash;what needs to be done is easy to understand, but doing it requires expertise, stamina, and even a little courage.
 
@@ -57,7 +57,7 @@ Your content has value, and will have more value in the long term when managed r
 
 ##### INFORMATION DESIGN & RELEVANCE
 
-![View Master](/assets/img/ib_view_master.png){: .image-bullet.upit}
+![View Master](/assets/img/ib_view_master.png "Label Tag"){: .image-bullet.upit}
 
 "It's not what you say, but how you say it."
 {: .inline-slogan}
