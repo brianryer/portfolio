@@ -1,4 +1,5 @@
 # Hello.
+
 I'm Brian Ryer: technical writer, content manager, and information designer.
 
 Continue reading here to learn a little about my understanding of technical communication. You can also read more [about me ][1]or reach out directly via email [contact@brianryer.com][2] or voice +1&nbsp;(503)&nbsp;272&#8209;1842).
@@ -8,6 +9,7 @@ Continue reading here to learn a little about my understanding of technical comm
 ### TECHNICAL COMMUNICATION
 
 Technical communication connects those with information to those who need that information. It connects your message to your audience, your clients to your products and services, your employees to your organizational goals.
+
 Technical communication delivers value by providing people with consistently relevant information in a way they can understand, enabling them to act on that information, and improve their productivity, their efficiency and, ultimately, their well being.
 
 Communicate with your customers, employees, stakeholders&mdash;any audience that you want to connect with&mdash;by focusing on three principles.
