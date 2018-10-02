@@ -3,9 +3,12 @@
 
 @import "{{ site.theme }}";
 
-img.site-logo {max-width: 80% !important;}
-img.image-bullet {float: left; margin: 0 1rem 1rem 0;}
-img.upit {margin: -.75rem 1rem 2.15rem 0;}
+
+header img (border: solid 2px slategray; border-radius: 6px; margin-left: -2px;}
+
+section img.site-logo {max-width: 80% !important;}
+section img.image-bullet {float: left; margin: 0 1rem 1rem 0;}
+section img.upit {margin: -.75rem 1rem 2.15rem 0;}
 
 section {width: 550px !important;}
 section h1 {color: inherit !important; font-size: 250% !important;}
@@ -13,7 +16,6 @@ section h1:first-of-type {margin-bottom: 1.1rem !important; margin-top: -.35rem 
 section table tr td {vertical-align: top !important; width: 33%;}
 
 section hr {width: 100%; margin: 1rem 0;}
-
 
 section ul {columns: 1; padding-left: 1rem; margin: 1rem 0;}
 section ul.cols-two {columns: 2;  width: 110%;}
