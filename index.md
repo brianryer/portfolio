@@ -20,7 +20,7 @@ Communicate with your customers, employees, stakeholders&mdash;any audience that
 
 ##### TECHNICAL WRITING & READABILITY
 
-![Letter Tile][image-1]{:.image-bullet}
+![Letter Tile](/assets/img/ib_scrabble_t.png){:.image-bullet}
 
 Readability is the foundation of successful technical writing.
 {: .inline-slogan}
@@ -45,7 +45,7 @@ Keeping these factors in mind during content creation ensures the content is hig
 
 ##### CONTENT MANAGEMENT & RELIABILITY
 
-![Label Tag][image-2]{: .image-bullet.upit}
+![Label Tag](/assets/img/ib_label_tag.png){: .image-bullet.upit}
 
 Over time, two things happen to content: it expands and delivery options for it multiply. As a result, managing content is simple in the same way that lion taming is simple&mdash;what needs to be done is easy to understand, but doing it requires expertise, stamina, and even a little courage.
 
@@ -57,7 +57,7 @@ Your content has value, and will have more value in the long term when managed r
 
 ##### INFORMATION DESIGN & RELEVANCE
 
-![View Master][image-3]{: .image-bullet.upit}
+![View Master](/assets/img/ib_view_master.png){: .image-bullet.upit}
 
 "It's not what you say, but how you say it."
 {: .inline-slogan}
@@ -79,7 +79,3 @@ The result is successful technical communication.
 
 [1]:	/about.md
 [2]:	mailto:contact@brianryer.com
-
-[image-1]:	/assets/img/ib_scrabble_t.png
-[image-2]:	/assets/img/ib_label_tag.png
-[image-3]:	/assets/img/ib_view_master.png
