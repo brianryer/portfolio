@@ -2,7 +2,7 @@
 
 I'm Brian Ryer: technical writer, content manager, and information designer.
 
-Continue reading here to learn a little about my understanding of technical communication. You can also read more [about me ][1]or reach out directly via email [contact@brianryer.com][2] or voice +1&nbsp;(503)&nbsp;272&#8209;1842).
+Continue reading here to learn a little about my understanding of technical communication. You can also read more [about me ](/about.md)or reach out directly via email [contact@brianryer.com](mailto:contact@brianryer.com) or voice +1&nbsp;(503)&nbsp;272&#8209;1842).
 
 ---
 
@@ -77,5 +77,4 @@ For information providers, the most valuable commodity is the audience's attenti
 
 The result is successful technical communication.
 
-[1]:	/about.md
-[2]:	mailto:contact@brianryer.com
+---
