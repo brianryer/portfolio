@@ -3,10 +3,8 @@
 
 @import "{{ site.theme }}";
 
+header img.site-logo {border: solid 2px slategray; border-radius: 6px; margin-left: -2px;max-width: 80% !important;}
 
-header img {border: solid 2px slategray; border-radius: 6px; margin-left: -2px;}
-
-section img.site-logo {max-width: 80% !important;}
 section img.image-bullet {float: left; margin: 0 1rem 1rem 0;}
 section img.upit {margin: -.75rem 1rem 2.15rem 0;}
 
