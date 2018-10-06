@@ -15,3 +15,8 @@ I hope you take away something useful from what you find here. 
 <p>{{position.name}}</p>
 <p>{{position.content | mardownify}}</p>
 {% endfor %}
+
+{% for skillset in site.resume_skills %}
+<p>{{skillset.name}}</p>
+<p>{{skillset.content | mardownify}}</p>
+{% endfor %}
