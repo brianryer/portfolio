@@ -12,6 +12,8 @@ I was born in New York, grew up in Las Vegas, spent my teen years in Southern C
 I hope you take away something useful from what you find here. 
 
 {% for position in site.resume_positions %}
-<p>{{position.name}}</p>
-<p>{{position.content}}</p>
+
+  <p>{{position.name}}</p>
+  <p>{{position.content}}</p>
+
 {% endfor %}
