@@ -7,5 +7,7 @@ tagline_morning: You look great!
 tagline_evening: Enough with the taglines already!
 tagline_special: Soup is good food.
 
+collections_dir: collections
 collections:
-  - resume_sections:
+  - resume_skills:
+  - resume_positions:
