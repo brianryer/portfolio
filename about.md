@@ -13,10 +13,10 @@ I hope you take away something useful from what you find here. 
 
 {% for position in site.resume_positions %}
 <p>{{position.name}}</p>
-<p>{{position.content | mardownify}}</p>
+<p>{{position.content | markdownify}}</p>
 {% endfor %}
 
 {% for skillset in site.resume_skills %}
 <p>{{skillset.name}}</p>
-<p>{{skillset.content | mardownify}}</p>
+<p>{{skillset.content | markdownify}}</p>
 {% endfor %}
