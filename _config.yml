@@ -9,5 +9,5 @@ tagline_special: Soup is good food.
 
 collections_dir: thecollections
 collections:
-  - resume_skills:
-  - resume_positions:
+  resume_skills:
+  resume_positions:
