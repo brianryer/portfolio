@@ -8,4 +8,4 @@ tagline_evening: Enough with the taglines already!
 tagline_special: Soup is good food.
 
 collections:
-  resume_sections:
+  - resume_sections:
