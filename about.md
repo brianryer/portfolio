@@ -12,6 +12,6 @@ I was born in New York, grew up in Las Vegas, spent my teen years in Southern C
 I hope you take away something useful from what you find here. 
 
 {% for section in site.resume_sections %}
-<p>{{section.name | where: "name","skills full"}}</p>
-<p>{{section.position | where: "name","skills full"}}</p>
+<p>{{section.name}}</p>
+<p>{{section.position}}</p>
 {% endfor %}
