@@ -10,3 +10,8 @@ I haven't always lived here.
 I was born in New York, grew up in Las Vegas, spent my teen years in Southern California, lived in Europe for about 20 years, then briefly in Texas, before putting down roots in Stumptown. Whew! 
 
 I hope you take away something useful from what you find here. 
+
+{% for section in site.resume_sections %}
+<p>{{section.name | where: "name","skills full"}}</p>
+<p>{{section.position | where: "name","skills full"}}</p>
+{% endfor %}
