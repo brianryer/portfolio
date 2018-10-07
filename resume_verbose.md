@@ -1,6 +1,5 @@
 ---
 verbosity: verbose
-my_profile: my_profile.md
 ---
 
 [Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
