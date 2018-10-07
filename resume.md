@@ -26,7 +26,7 @@ verbosity: standard
 
 ## Education
 {% for section in resume_sections %}
-  {{ section | where tyoe == 'education' }}
+  {{ section | where type == 'education' }}
 {% endfor %}
 
 ### Certification
