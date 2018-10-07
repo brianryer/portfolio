@@ -1,5 +1,5 @@
 ---
-verbosity: brief
+verbosity: verbose
 ---
 
 ## Profile
