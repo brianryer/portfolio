@@ -5,7 +5,15 @@ verbosity: standard
 
 ## Profile
 {% assign this_section = (site.resume_sections | where: "type", "profile" ) %}
+{% for section in this_section %}
+<p>{{ section.content }}</p>
+{% endfor %}
+
+{% for this_section in site.resume_sections %}
+{% if this_section.name == "profile" %}
 <p>{{ this_section.content }}</p>
+{% endif %}
+{% endfor %}
 
 
 ## Experience
