@@ -46,7 +46,7 @@ verbosity: brief
 ## Skills
 {% for skillset in site.resume_skills %}
 <p>{{skillset.name}}</p>
-<p>{{skillset.content | markdownify}}
+<p>{{skillset.content }}
 {% endfor %}
 
 ## Online
