@@ -13,9 +13,16 @@ I am a technical writer, editor, content manager and information designer with w
 
 {% for position in site.resume_positions %}
   {% if position.display = yes %}
-<p>{{position.title | upcase}},{{position.company | upcase}},{{position.location | upcase}},{{position.dates | upcase}}
-</p>
-<p>{{position.summary_{{page.verbosity}} | markdownify}}</p>
+    <p>{{position.title | upcase}},{{position.company | upcase}},{{position.location | upcase}},{{position.dates | upcase}}</p>
+    <p>{% case page.verbosity %}
+        {% when 'brief' %}
+           {{position.summary_brief | markdownify}}
+        {% when 'verbose' %}
+           {{position.summary_verbose | markdownify}}
+        {% else %}
+           {{position.summary_standard | markdownify}}
+      {% endcase %}
+    </p>
   {% endif %}
 {% endfor %}
 
