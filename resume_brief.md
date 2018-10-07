@@ -13,7 +13,16 @@ verbosity: brief
 ## Experience
 {% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
 {% for position in sorted_positions %}
+  {% if position.display %}
+<p>{{position.title}}, {{position.company}}, {{position.location}}, {{position.dates}}</p>
+  {% endif %}
+  {% if page.verbosity == "brief" %}
+<p>{{position.brief_summary}}</p>
+  {% elsif page.verbosity == "verbose" %}
+<p>{{position.verbose_summary}}</p>
+  {% else %}
 <p>{{position.{{page.verbosity}}_summary}}</p>
+  {% endif %}
 {% endfor %}
 
 ## Education
