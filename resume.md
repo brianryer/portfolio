@@ -16,11 +16,11 @@ I am a technical writer, editor, content manager and information designer with w
     <p>{{position.title | upcase}},{{position.company | upcase}},{{position.location | upcase}},{{position.dates | upcase}}</p>
     <p>{% case page.verbosity %}
         {% when 'brief' %}
-           {{position.summary_brief | markdownify}}
+           {{position.brief_summary | markdownify}}
         {% when 'verbose' %}
-           {{position.summary_verbose | markdownify}}
+           {{position.verbose_summary | markdownify}}
         {% else %}
-           {{position.summary_standard | markdownify}}
+           {{position.standard_standard | markdownify}}
       {% endcase %}
     </p>
   {% endif %}
