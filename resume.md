@@ -10,14 +10,7 @@ I am a technical writer, editor, content manager and information designer with w
 
 {% for position in site.resume_positions %}
   {% if position.display == 'yes' %}
-    <p>{{position.title | upcase}},{{position.company | upcase}},{{position.location | upcase}},{{position.dates | upcase}}</p>
-    <p>{% if page.verbosity == 'brief' %}
-           {{position.brief_summary}}
-        {% elsif page.verbosity == 'verbose' %}
-           {{position.verbose_summary}}
-        {% else %}
-           {{position.standard_summary}}
-      {% endif %}
+    <p>{{position.title | upcase}},{{position.company | upcase}}, {{position.location | upcase}}, {{position.dates | upcase}}</p>
     </p>
   {% endif %}
 {% endfor %}
