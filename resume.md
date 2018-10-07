@@ -10,7 +10,7 @@ my_online: my_online.md
 [Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
 
 ## Profile
-{% include {{my_profile}} %}
+{% include {{page.my_profile}} %}
 
 ## Experience
 {% assign sorted_positions = (site.resume_positions | sort: 'sorter') | reverse %}
