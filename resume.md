@@ -58,7 +58,6 @@ verbosity: standard
 
 {% assign online_section = (site.resume_sections | where: "type", "online" ) %}
 {% for section in online_section %}
-<p>{{ section.content | markdownify }}</p>
+<p>{{ section.content }}</p>
 {% endfor %}
 
-## phuket
