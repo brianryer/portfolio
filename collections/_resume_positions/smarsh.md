@@ -1,0 +1,12 @@
+---
+title: Technical Writer & Content Developer
+company: SMARSH
+location: Portland, OR
+dates: 10/2016-08/2018
+summary_brief: Managed customer facing and internal documentation in collaboration with Product Managers and SMEs;.
+summary_standard: Wrote, edited, and managed customer facing and internal documentation in collaboration with Product Managers and SMEs; built lightweight content management tools and administered multiple content management systems.
+summary_verbose: Wrote, edited, and managed customer facing and internal documentation in collaboration with Product Managers and SMEs; built lightweight content management tools and administered multiple content management systems (SharePoint, Salesforce, Confluence, WalkMe, SnagIt).
+display: yes
+sorter: 201610
+---
+smarsh.com
