@@ -4,7 +4,7 @@ verbosity: standard
 [Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
 
 ## Profile
-{% assign profile_section = (site.resume_sections | where: "type", "profile" ) %}
+{%- assign profile_section = (site.resume_sections | where: "type", "profile" ) -%}
 {% for section in profile_section %}
 {{ section.content }}
 {% endfor %}
