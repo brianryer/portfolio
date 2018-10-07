@@ -58,5 +58,5 @@ verbosity: standard
 
 {% assign online_section = (site.resume_sections | where: "type", "online" ) %}
 {% for section in online_section %}
-<p>{{ section.title }}: section.skills }}</p>
+<p>{{- section.title -}}: {{- section.skills -}}</p>
 {% endfor %}
