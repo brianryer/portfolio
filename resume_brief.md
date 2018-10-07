@@ -13,7 +13,6 @@ vpositions: 'position.!WHICH!_summary'
 
 ## Experience
 {% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
-{% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
 {% for position in sorted_positions %}
   {% if position.display %}
 <p>{{position.title}}, {{position.company}}, {{position.location}}, {{position.dates}}</p>

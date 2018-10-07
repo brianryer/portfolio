@@ -15,7 +15,7 @@ vpositions: 'position.!WHICH!_summary'
 {% for position in sorted_positions %}
   {% if position.display %}
 <p>{{position.title}}, {{position.company}}, {{position.location}}, {{position.dates}}</p>
-<p>{{page.vpositions | replace: '!WHICH!', page.verbosity}}</p>
+<p>{{page.vpositions | replace: "!WHICH!', page.verbosity}}</p>
   {% endif %}
 {% endfor %}
 
