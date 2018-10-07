@@ -8,13 +8,15 @@ I am a technical writer, editor, content manager and information designer with w
 
 ## Experience
 
-{% for position in site.resume_positions %}
+
+{% assign sorted_positions = (site.resume_positions | sort: 'sorter') | reverse %}
+{% for position in sorted_positions %}
   {% if position.display %}
 <p>{{position.title | upcase}},{{position.company | upcase}}, {{position.location | upcase}}, {{position.dates | upcase}}</p>
   {% endif %}
-  {% if page.verbosity == "brief" %}
+  {% if page.verbosity == 'brief' %}
 <p>{{position.brief_summary}}</p>
-  {% endif %}  
+  {% endif %}
 {% endfor %}
 
 ## Education
