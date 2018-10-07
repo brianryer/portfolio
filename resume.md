@@ -40,13 +40,6 @@ verbosity: standard
 <p>{{ section.content }}</p>
 {% endfor %}
 
-## Online
-
-{% assign 1online_section = (site.resume_sections | where: "type", "online" ) %}
-{% for section in 1online_section %}
-<p>{{ section.content }}</p>
-{% endfor %}
-
 ## Service
 
 {% assign service_section = (site.resume_sections | where: "type", "service" ) %}
@@ -57,20 +50,12 @@ verbosity: standard
 ## Skills
 
 {% for skillset in site.resume_skills %}
-<p>{{ skillset.name }}</p>
-<p>{{ skillset.content }}
+<p><strong>{{ skillset.name }}</strong>: {{ skillset.content }}
 {% endfor %}
 
 ## Online
 
 {% assign online_section = (site.resume_sections | where: "type", "online" ) %}
 {% for section in online_section %}
-<p>{{ section.content }}</p>
-{% endfor %}
-
-## Service
-
-{% assign 1service_section = (site.resume_sections | where: "type", "service" ) %}
-{% for section in 1service_section %}
 <p>{{ section.content }}</p>
 {% endfor %}
