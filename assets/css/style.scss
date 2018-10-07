@@ -22,8 +22,7 @@ section li:first-of-type {margin-top: 0;}
 section ul li {margin: 0 1rem;}
 section ul li p {margin: 0;}
 
-section h2+p,
-section h3+p {margin-top: -.5rem !important;}
+section h2+p {margin-top: -.5rem !important;}
 
 section p {margin-bottom: .5rem !important;}
 section p.inline-slogan {margin-bottom: .25rem; font-style: italic;}
