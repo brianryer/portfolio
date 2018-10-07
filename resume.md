@@ -4,8 +4,8 @@ verbosity: standard
 [Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
 
 ## Profile
-{% assign this_section = (section.resume_sections | where: "name", "profile") %}
-{{this_section.content}}
+{% assign sections = (section.resume_sections | where: "name", "profile") %}
+<p>{{_section.content}}</p>
 
 ## Experience
 {% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
