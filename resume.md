@@ -41,6 +41,7 @@ my_online: my_online.md
 <p>{{skillset.name}}</p>
 <p>{{skillset.content | markdownify}}</p>
 {% endfor %}
--->
+
 ## Online
 {% include {{my_online}} %}
+-->
