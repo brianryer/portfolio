@@ -51,7 +51,7 @@ verbosity: standard
 
 {% assign skills_section = (site.resume_skills) %}
 {% for section in skills_section %}
-<p>{{- section.name -}}:&nbsp;{{- section.skills -}}</p>
+<p><strong>{{- section.name -}}</strong>:&nbsp;{{- section.skills -}}</p>
 {% endfor %}
 
 ## Online
