@@ -1,5 +1,6 @@
 ---
 verbosity: brief
+vpositions: 'position.!WHICH!_summary'
 ---
 
 [Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
@@ -12,16 +13,11 @@ verbosity: brief
 
 ## Experience
 {% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
+{% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
 {% for position in sorted_positions %}
   {% if position.display %}
 <p>{{position.title}}, {{position.company}}, {{position.location}}, {{position.dates}}</p>
-  {% endif %}
-  {% if page.verbosity == "brief" %}
-<p>{{position.brief_summary}}</p>
-  {% elsif page.verbosity == "verbose" %}
-<p>{{position.verbose_summary}}</p>
-  {% else %}
-<p>{{position.standard_summary}}</p>
+<p>{{page.vpositions | replace: "!WHICH!', page.verbosity}}</p>
   {% endif %}
 {% endfor %}
 
