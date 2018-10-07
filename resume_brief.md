@@ -16,7 +16,7 @@ my_online: my_online.md
 {% assign sorted_positions = (site.resume_positions | sort: 'sorter') | reverse %}
 {% for position in sorted_positions %}
   {% if position.display %}
-<p>{{position.title | upcase}},{{position.company | upcase}}, {{position.location | upcase}}, {{position.dates | upcase}}</p>
+<p>{{position.title}}, {{position.company}}, {{position.location}}, {{position.dates}}</p>
   {% endif %}
   {% if page.verbosity == 'brief' %}
 <p>{{position.brief_summary}}</p>
