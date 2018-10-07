@@ -60,3 +60,5 @@ verbosity: standard
 {% for section in online_section %}
 <p>{{ section.content | markdownify }}</p>
 {% endfor %}
+
+## phuket
