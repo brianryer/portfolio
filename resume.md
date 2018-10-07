@@ -61,4 +61,9 @@ verbosity: standard
 <p>{{ section.content | markdownify }}</p>
 {% endfor %}
 
-## phuket
+## Skills
+
+{% for skillset in site.resume_skills %}
+<p>{{ skillset.name }}</p>
+<p>{{ skillset.content }}
+{% endfor %}
