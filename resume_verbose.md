@@ -1,5 +1,5 @@
 ---
-verbosity: standard
+verbosity: verbose
 my_profile: my_profile.md
 my_education: my_education.md
 my_certification: my_certification.md
