@@ -8,7 +8,6 @@ I am a technical writer, editor, content manager and information designer with w
 
 ## Experience
 
-
 {% assign sorted_positions = (site.resume_positions | sort: 'sorter') | reverse %}
 {% for position in sorted_positions %}
   {% if position.display %}
@@ -16,6 +15,10 @@ I am a technical writer, editor, content manager and information designer with w
   {% endif %}
   {% if page.verbosity == 'brief' %}
 <p>{{position.brief_summary}}</p>
+  {% elsif page.verbosity == 'verbose' %}
+<p>{{position.verbose_summary}}</p>
+  {% else %}
+<p>{{position.standard_summary}}</p>
   {% endif %}
 {% endfor %}
 
