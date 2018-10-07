@@ -12,12 +12,11 @@ I am a technical writer, editor, content manager and information designer with w
 ## Experience
 
 {% for position in site.resume_positions %}
-<p>{{position.title}}
-   {{position.company}}
-   {{position.location}}
-   {{position.dates}}
+  {% if position.display = yes %}
+<p>{{position.title | upcase}},{{position.company | upcase}},{{position.location | upcase}},{{position.dates | upcase}}
 </p>
-<p>{{position.content | markdownify}}</p>
+<p>{{position.summary_{{page.verbosity}} | markdownify}}</p>
+  {% endif %}
 {% endfor %}
 
 ## Education
