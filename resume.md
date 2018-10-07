@@ -29,12 +29,18 @@ my_online: my_online.md
 
 ## Education
 {% include {{my_education}} %}
+
 ### Certification
 {% include {{my_certification}} %}
+
 ## Service
 {% include {{my_service}} %}
+
 ## Skills
 {% for skillset in site.resume_skills %}
 <p>{{skillset.name}}</p>
 <p>{{skillset.content | markdownify}}</p>
 {% endfor %}
+
+## Online
+{% include {{my_online}} %}
