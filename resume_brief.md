@@ -1,7 +1,7 @@
 ---
 verbosity: brief
 ---
-<!--
+
 [Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
 
 ## Profile
@@ -23,13 +23,13 @@ verbosity: brief
 {% endfor %}
 
 ## Education
-{% include {{my_education}} %}
+
 
 ### Certification
-{% include {{my_certification}} %}
+
 
 ## Service
-{% include {{my_service}} %}
+
 
 ## Skills
 {% for skillset in site.resume_skills %}
@@ -38,5 +38,3 @@ verbosity: brief
 {% endfor %}
 
 ## Online
-{% include {{my_online}} %}
--->
