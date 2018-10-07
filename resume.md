@@ -6,6 +6,7 @@ verbosity: standard
 ## Profile
 {% assign section = site.resume_sections | where:'type', 'profile' %}
 {{ section.content }}
+{{section.name}}
 
 ## Experience
 {% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
