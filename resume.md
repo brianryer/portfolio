@@ -4,9 +4,8 @@ verbosity: standard
 [Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
 
 ## Profile
-{% for section in resume_sections %}
-  {{ section.content | where: "type", "profile" }}
-{% endfor %}
+{% assign section = site.resume_sections | where:'type', 'profile' %}
+{{ section.content }}
 
 ## Experience
 {% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
@@ -24,19 +23,16 @@ verbosity: standard
 {% endfor %}
 
 ## Education
-{% for section in resume_sections %}
-  {{ section.content | where: "type" , "education" }}
-{% endfor %}
+{% assign section = site.resume_sections | where:'type', 'education' %}
+{{ section.content }}
 
 ### Certification
-{% for section in resume_sections %}
-  {{ section.content | where: "type", "certification" }}
-{% endfor %}
+{% assign section = site.resume_sections | where:'type', 'certification' %}
+{{ section.content }}
 
 ## Service
-{% for section in resume_sections %}
-  {{ section.content | where: "type", "service" }}
-{% endfor %}
+{% assign section = site.resume_sections | where:'type', 'service' %}
+{{ section.content }}
 
 ## Skills
 {% for skillset in site.resume_skills %}
@@ -45,6 +41,5 @@ verbosity: standard
 {% endfor %}
 
 ## Online
-{% for section in resume_sections %}
-  {{ section.content | where: "type", "online" }}
-{% endfor %}
+{% assign section = site.resume_sections | where:'type', 'online' %}
+{{ section.content }}
