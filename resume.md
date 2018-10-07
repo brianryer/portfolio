@@ -6,7 +6,7 @@ verbosity: standard
 ## Profile
 {% assign profile_section = (site.resume_sections | where: "type", "profile" ) %}
 {% for section in profile_section %}
-<p>{{ profile_section.content }}</p>
+<p>{{ section.content }}</p>
 {% endfor %}
 
 ## Experience
@@ -27,7 +27,7 @@ verbosity: standard
 ## Education
 {% assign education_section = (site.resume_sections | where: "type", "education" ) %}
 {% for section in education_section %}
-<p>{{ education_section.content }}</p>
+<p>{{ section.content }}</p>
 {% endfor %}
 
 ### Certification
@@ -39,7 +39,7 @@ verbosity: standard
 ## Service
 {% assign service_section = (site.resume_sections | where: "type", "service" ) %}
 {% for section in service_section %}
-<p>{{ service_section.content }}</p>
+<p>{{ section.content }}</p>
 {% endfor %}
 
 ## Skills
@@ -51,5 +51,5 @@ verbosity: standard
 ## Online
 {% assign online_section = (site.resume_sections | where: "type", "online" ) %}
 {% for section in online_section %}
-<p>{{ online_section.content }}</p>
+<p>{{ section.content }}</p>
 {% endfor %}
