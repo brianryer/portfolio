@@ -50,7 +50,6 @@ verbosity: standard
 ## Skills
 {% assign skills_section = (site.resume_skills) %}
 {% for skillset in site.resume_skills %}
-{% concat skillset in site.resume_skills %}
 <p>{{ skillset.name }}: {{ skillset.content }}</p>
 {% endfor %}
 
