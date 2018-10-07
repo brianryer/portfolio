@@ -8,12 +8,10 @@ I am a technical writer, editor, content manager and information designer with w
 
 ## Experience
 
-{{ page.verbosity}}
-
 {% for position in site.resume_positions %}
-  {% if position.display %}
-    <p>{{position.title | upcase}},{{position.company | upcase}}, {{position.location | upcase}}, {{position.dates | upcase}}</p>
-    </p>
+{% if position.display %}
+{{position.display | upcase}}
+<p>{{position.title | upcase}},{{position.company | upcase}}, {{position.location | upcase}}, {{position.dates | upcase}}</p>
   {% endif %}
 {% endfor %}
 
