@@ -20,7 +20,7 @@ verbosity: standard
   {% elsif page.verbosity == "verbose" %}
 <p>{{position.verbose_summary}}</p>
   {% else %}
-<p>{{position.standard_summary}}</p>
+<p>{{position.{{page.verbosity}}_summary}}</p>
   {% endif %}
 {% endfor %}
 
