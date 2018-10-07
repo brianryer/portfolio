@@ -6,7 +6,7 @@ verbosity: standard
 
 ## Profile
 {% for section in resume_sections %}
-  {{ section | where name == 'profile' }}
+  {{ section | where type == 'profile' }}
 {% endfor %}
 
 ## Experience
@@ -25,13 +25,19 @@ verbosity: standard
 {% endfor %}
 
 ## Education
-
+{% for section in resume_sections %}
+  {{ section | where tyoe == 'education' }}
+{% endfor %}
 
 ### Certification
-
+{% for section in resume_sections %}
+  {{ section | where type == 'certification' }}
+{% endfor %}
 
 ## Service
-
+{% for section in resume_sections %}
+  {{ section | where type == 'service' }}
+{% endfor %}
 
 ## Skills
 {% for skillset in site.resume_skills %}
@@ -40,3 +46,6 @@ verbosity: standard
 {% endfor %}
 
 ## Online
+{% for section in resume_sections %}
+  {{ section | where type == 'online' }}
+{% endfor %}
