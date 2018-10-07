@@ -33,7 +33,7 @@ verbosity: standard
 ### Certification
 {% assign certification_section = (site.resume_sections | where: "type", "certification" ) %}
 {% for section in certification_section %}
-<p>{{ certification_section.content }}</p>
+<p>{{ section.content }}</p>
 {% endfor %}
 
 ## Service
