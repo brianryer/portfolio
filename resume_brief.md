@@ -21,7 +21,7 @@ verbosity: brief
   {% elsif page.verbosity == "verbose" %}
 <p>{{position.verbose_summary}}</p>
   {% else %}
-<p>{{position.{{page.verbosity}}_summary}}</p>
+<p>{{position.standard_summary}}</p>
   {% endif %}
 {% endfor %}
 
