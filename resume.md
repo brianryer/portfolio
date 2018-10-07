@@ -6,7 +6,7 @@ verbosity: standard
 
 ## Profile
 {% for section in resume_sections %}
-  {{ section | where type == 'profile' }}
+  {{ section.content | where type == 'profile' }}
 {% endfor %}
 
 ## Experience
@@ -26,17 +26,17 @@ verbosity: standard
 
 ## Education
 {% for section in resume_sections %}
-  {{ section | where type == 'education' }}
+  {{ section.content | where type == 'education' }}
 {% endfor %}
 
 ### Certification
 {% for section in resume_sections %}
-  {{ section | where type == 'certification' }}
+  {{ section.content | where type == 'certification' }}
 {% endfor %}
 
 ## Service
 {% for section in resume_sections %}
-  {{ section | where type == 'service' }}
+  {{ section.content | where type == 'service' }}
 {% endfor %}
 
 ## Skills
@@ -47,5 +47,5 @@ verbosity: standard
 
 ## Online
 {% for section in resume_sections %}
-  {{ section | where type == 'online' }}
+  {{ section.content | where type == 'online' }}
 {% endfor %}
