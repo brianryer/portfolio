@@ -8,6 +8,8 @@ I am a technical writer, editor, content manager and information designer with w
 
 ## Experience
 
+{{ position.display}}
+
 {% for position in site.resume_positions %}
   {% if position.display == "yes" %}
     <p>{{position.title | upcase}},{{position.company | upcase}}, {{position.location | upcase}}, {{position.dates | upcase}}</p>
