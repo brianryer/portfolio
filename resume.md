@@ -11,7 +11,7 @@ my_online: my_online.md
 
 ## Profile
 {% include {{my_profile}} %}
-
+<!--
 ## Experience
 {% assign sorted_positions = (site.resume_positions | sort: 'sorter') | reverse %}
 {% for position in sorted_positions %}
@@ -41,6 +41,6 @@ my_online: my_online.md
 <p>{{skillset.name}}</p>
 <p>{{skillset.content | markdownify}}</p>
 {% endfor %}
-
+-->
 ## Online
 {% include {{my_online}} %}

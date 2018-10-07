@@ -1,7 +1,7 @@
 ---
 verbosity: brief
 ---
-
+<!--
 [Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
 
 ## Profile
@@ -39,3 +39,4 @@ verbosity: brief
 
 ## Online
 {% include {{my_online}} %}
+-->
