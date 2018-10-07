@@ -1,16 +1,13 @@
 ---
 verbosity: standard
-my_profile: my_profile.md
-my_education: my_education.md
-my_certification: my_certification.md
-my_service: my_service.md
-my_online: my_online.md
 ---
 
 [Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
 
 ## Profile
-{% include {{page.my_profile}} %}
+{% for section in resume_sections %}
+  {{ section | where name == 'profile' }}
+{% endfor %}
 
 ## Experience
 {% assign sorted_positions = (site.resume_positions | sort: 'sorter') | reverse %}
