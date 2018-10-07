@@ -9,10 +9,12 @@ I am a technical writer, editor, content manager and information designer with w
 ## Experience
 
 {% for position in site.resume_positions %}
-{% if position.display %}
-{{page.verbosity}}
+  {% if position.display %}
 <p>{{position.title | upcase}},{{position.company | upcase}}, {{position.location | upcase}}, {{position.dates | upcase}}</p>
   {% endif %}
+  {% if page.verbosity == "brief" %}
+<p>{{position.brief_summary}}</p>
+  {% endif %}  
 {% endfor %}
 
 ## Education
