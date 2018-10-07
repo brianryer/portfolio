@@ -44,11 +44,11 @@ verbosity: standard
 
 ## Skills
 {% for skillset in site.resume_skills %}
-<p>{{skillset.name}}</p>
-<p>{{skillset.content | markdownify}}
+<p>{{ skillset.name }}</p>
+<p>{{ skillset.content }}
 {% endfor %}
 
-## Online 
+## Online
 {% assign online_section = (site.resume_sections | where: "type", "online" ) %}
 {% for section in online_section %}
 <p>{{ section.content }}</p>
