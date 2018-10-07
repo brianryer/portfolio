@@ -2,7 +2,7 @@
 
 I'm Brian Ryer: technical writer, content manager, and information designer.
 
-Please continue reading here to learn something about my understanding of technical communication. You can also read more [about me](about.md), peruse [my resume](resumej.md), reach out directly via email [contact@brianryer.com](mailto:contact@brianryer.com) or call me at +1&nbsp;(503)&nbsp;272&#8209;1842).
+Please continue reading here to learn something about my understanding of technical communication. You can also read more [about me](about.md), peruse [my resume](resume.md), reach out directly via email [contact@brianryer.com](mailto:contact@brianryer.com) or call me at +1&nbsp;(503)&nbsp;272&#8209;1842).
 
 ---
 
