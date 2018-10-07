@@ -48,7 +48,7 @@ verbosity: standard
 <p>{{skillset.content | markdownify}}
 {% endfor %}
 
-## Online
+## Online 
 {% assign online_section = (site.resume_sections | where: "type", "online" ) %}
 {% for section in online_section %}
 <p>{{ section.content }}</p>
