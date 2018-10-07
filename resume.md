@@ -16,7 +16,7 @@ I am a technical writer, editor, content manager and information designer with w
         {% elseif page.verbosity == 'verbose' %}
            {{position.verbose_summary}}
         {% else %}
-           {{position.standard_standard}}
+           {{position.standard_summary}}
       {% endif %}
     </p>
   {% endif %}
