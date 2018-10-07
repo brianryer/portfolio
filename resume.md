@@ -5,7 +5,7 @@ verbosity: standard
 
 ## Profile
 {% assign sections = (section.resume_sections | where: "name", "profile") %}
-<p>{{_section.content}}</p>
+<p>{{ section.content}}</p>
 
 ## Experience
 {% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
