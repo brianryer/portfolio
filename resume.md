@@ -13,7 +13,7 @@ I am a technical writer, editor, content manager and information designer with w
     <p>{{position.title | upcase}},{{position.company | upcase}},{{position.location | upcase}},{{position.dates | upcase}}</p>
     <p>{% if page.verbosity == 'brief' %}
            {{position.brief_summary}}
-        {% elseif page.verbosity == 'verbose' %}
+        {% elsif page.verbosity == 'verbose' %}
            {{position.verbose_summary}}
         {% else %}
            {{position.standard_summary}}
