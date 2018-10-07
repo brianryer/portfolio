@@ -1,9 +1,6 @@
 ---
 verbosity: brief
 ---
-# Brian Ryer
-
-+1 (503) 272-1842 | brian.ryer@me.com | 5812 SE Center Street, Portland, OR 97206 {: .resume-contact-info}
 
 ## Profile
 
@@ -17,11 +14,11 @@ I am a technical writer, editor, content manager and information designer with w
     <p>{% assign handle = page.verbosity %}
       {% case handle %}
         {% when 'brief' %}
-           {{position.brief_summary | markdownify}}
+           {{position.brief_summary}}
         {% when 'verbose' %}
-           {{position.verbose_summary | markdownify}}
+           {{position.verbose_summary}}
         {% else %}
-           {{position.standard_standard | markdownify}}
+           {{position.standard_standard}}
       {% endcase %}
     </p>
   {% endif %}
