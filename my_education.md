@@ -1,6 +1,3 @@
----
----
-
 University of Maryland, Frankfurt, Germany – Linguistics (non degree, AA equivalent), 1988 
 
 University of the Pacific, Stockton, CA – General (non degree), 1981 
