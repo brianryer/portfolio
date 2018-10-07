@@ -9,12 +9,13 @@ verbosity: standard
 <p>{{ section.content }}</p>
 {% endfor %}
 
+<!--
 {% for this_section in site.resume_sections %}
 {% if this_section.name == "profile" %}
 <p>{{ this_section.content }}</p>
 {% endif %}
 {% endfor %}
-
+-->
 
 ## Experience
 {% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
