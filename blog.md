@@ -10,7 +10,7 @@
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
             <p class="published" datetime="{{ post.date }}" pubdate="">
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: '%B %d, %Y}} {{ post.time-comment}}</a>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: '%B %d, %Y}} {{ post.time-comment }}</a>
             </p>
         </post-header>
         <div class="entry-content">
