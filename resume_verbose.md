@@ -2,7 +2,7 @@
 verbosity: verbose
 ---
 
-[Brief][1]|[Standard][2]|[Verbose][3]|
+[Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
 
 ## Profile
 {% assign profile\_section = (site.resume\_sections | where: "type", "profile" ) %}
@@ -53,7 +53,3 @@ verbosity: verbose
 {% for section in online\_section %}
 <p>{{- section.content -}}</p>
 {% endfor %}
-
-[1]:	resume_brief.md
-[2]:	resume.md
-[3]:	resume_verbose.md
