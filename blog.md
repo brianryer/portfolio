@@ -12,7 +12,7 @@
 
 <div class="listing">
     {% for post in site.posts %}
-    <section>
+    <article>
         <header class="entry-header">
             <h2 class="entry-title">
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -24,6 +24,6 @@
         <div class="entry-content">
             {{ post.content }}
         </div>
-    </section>
+    </article>
     {% endfor %}
 </div>
