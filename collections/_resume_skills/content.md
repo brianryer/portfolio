@@ -1,4 +1,4 @@
 ---
 name: Content
-skills:  Confluence, SharePoint, Wordpress, GIT, CVS, Subversion, wiki variants  
-—- 
+skills:  Confluence, SharePoint, Wordpress, GIT, CVS, Subversion, wiki variants
+—--
