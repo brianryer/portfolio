@@ -35,7 +35,7 @@ verbosity: verbose
 {% assign certification_section = (site.resume_sections | where: "type", "certification" ) %}
 {% for section in certification_section %}
 <p>{{ section.content }}</p>
-{% en dfor %}
+{% endfor %}
 
 ## Service
 {% assign service_section = (site.resume_sections | where: "type", "service" ) %}
