@@ -12,18 +12,18 @@
 
 <div class="listing">
     {% for post in site.posts %}
-    <article>
+    <section>
         <header class="entry-header">
             <h2 class="entry-title">
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
-            <time class="published" datetime="{{ post.date }}" pubdate="">
+            <p class="published" datetime="{{ post.date }}" pubdate="">
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: '%B %d, %Y' }}</a>
-            </time>
+            </p>
         </header>
         <div class="entry-content">
             {{ post.content }}
         </div>
-    </article>
+    </section>
     {% endfor %}
 </div>
