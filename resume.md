@@ -5,14 +5,14 @@ verbosity: standard
 [Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
 
 ## Profile
-{%- assign profile\_section = (site.resume\_sections | where: "type", "profile" ) -%}
-{% for section in profile\_section %}
+{%- assign profile_section = (site.resume_sections | where: "type", "profile" ) -%}
+{% for section in profile_section %}
 {{ section.content }}
 {% endfor %}
 
 ## Experience
-{% assign sorted\_positions = (site.resume\_positions | sort: "sorter") | reverse %}
-{% for position in sorted\_positions %}
+{% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
+{% for position in sorted_positions %}
   {% if position.display %}
 <p>{{position.title}}, {{position.company}}, {{position.location}}, {{position.dates}}</p>
   {% endif %}
@@ -26,31 +26,31 @@ verbosity: standard
 {% endfor %}
 
 ## Education
-{% assign education\_section = (site.resume\_sections | where: "type", "education" ) %}
-{% for section in education\_section %}
+{% assign education_section = (site.resume_sections | where: "type", "education" ) %}
+{% for section in education_section %}
 <p>{{ section.content }}</p>
 {% endfor %}
 
 ### Certification
-{% assign certification\_section = (site.resume\_sections | where: "type", "certification" ) %}
-{% for section in certification\_section %}
+{% assign certification_section = (site.resume_sections | where: "type", "certification" ) %}
+{% for section in certification_section %}
 <p>{{ section.content }}</p>
 {% endfor %}
 
 ## Service
-{% assign service\_section = (site.resume\_sections | where: "type", "service" ) %}
-{% for section in service\_section %}
+{% assign service_section = (site.resume_sections | where: "type", "service" ) %}
+{% for section in service_section %}
 <p>{{ section.content }}</p>
 {% endfor %}
 
 ## Skills
-{% assign skills\_section = (site.resume\_skills) %}
-{% for section in skills\_section %}
+{% assign skills_section = (site.resume_skills) %}
+{% for section in skills_section %}
 <p><strong>{{- section.name -}}</strong>:&nbsp;{{- section.skills -}}</p>
 {% endfor %}
 
 ## Online
-{% assign online\_section = (site.resume\_sections | where: "type", "online" ) %}
-{% for section in online\_section %}
+{% assign online_section = (site.resume_sections | where: "type", "online" ) %}
+{% for section in online_section %}
 <p>{{- section.content -}}</p>
 {% endfor %}
