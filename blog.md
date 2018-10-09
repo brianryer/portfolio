@@ -2,6 +2,7 @@
   layout: default
   title: Blog
 ---
+<h1>Recently</h1>
 <div class="listing">
     {% for post in site.posts %}
     <post>
