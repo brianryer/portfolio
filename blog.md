@@ -11,7 +11,7 @@
 </ul>
 
 <div class="listing">
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
     <article>
         <header class="entry-header">
             <h2 class="entry-title">
