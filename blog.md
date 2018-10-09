@@ -2,14 +2,6 @@
   layout: default
   title: Blog
 ---
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
 <div class="listing">
     {% for post in site.posts %}
     <article>
