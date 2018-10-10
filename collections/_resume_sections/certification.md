@@ -1,5 +1,6 @@
 ---
 type: certification
+sorter: 40
 ---
 
 Goethe Institute, Frankfurt, Germany - Mittelstufenprüfung Zertifikat (university proficiency), 1989

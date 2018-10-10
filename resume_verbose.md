@@ -29,7 +29,7 @@ verbosity: verbose
 <p><strong>{{- section.name -}}</strong>:&nbsp;{{- section.skills -}}</p>
     {% endfor %}
   {% else %}
-     {{ section.content }}
+     {{ section.content | markdownify }}
 {% endcase %}
 
 
