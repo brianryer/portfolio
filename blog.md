@@ -1,6 +1,6 @@
 ---
-  layout: default
-  title: Blog
+layout: default
+title: Blog
 ---
 <h1>Recently</h1>
 <div class="listing">
