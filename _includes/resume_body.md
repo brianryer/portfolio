@@ -2,7 +2,6 @@
 title: 33
 description: resume body which handles three experience lengths and a skills collection
 ---
-{{ include resume_menu.md }}
 
 {% assign sorted_sections =site.resume_sections | sort: "sorter" %}
 {% for section in sorted_sections %}
