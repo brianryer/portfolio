@@ -1,6 +1,5 @@
 ---
 verbosity: verbose
-resume_body: /pages/resume_body.md
 ---
 
 {% assign sorted_sections = (site.resume_sections | sort: "sorter") %}
@@ -11,9 +10,9 @@ resume_body: /pages/resume_body.md
   {% when 'experience' %}
     {% assign sorted_positions = (site.resume_positions | sort: "sorter" | reverse %}
     {% for position in sorted_positions %}
-    {% if position.display %}
+      {% if position.display %}
 <p><strong>{{position.title}}</strong>, {{position.company}}, {{position.location}}, {{position.dates}}</p>
-    {% endif %}
+      {% endif %}
       {% if page.verbosity == "brief" %}
 <p>{{position.brief_summary}}</p>
       {% elsif page.verbosity == "verbose" %}
