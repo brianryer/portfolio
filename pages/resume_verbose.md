@@ -2,13 +2,13 @@
 verbosity: verbose
 ---
 
-{% assign sorted_sections = ( site.resume_sections | sort: "sorter" ) %}
+{% assign sorted_sections =  site.resume_sections | sort: "sorter" %}
 {% for section in sorted_sections %}
 <h2>{{ section.type | capitalize }}</h2>
 {% assign this_section = section.type %}
 {% case this_section %}
 {% when 'experience' %}
-{% assign sorted_positions = ( site.resume_positions | sort: "sorter" | reverse ) %}
+{% assign sorted_positions =  site.resume_positions | sort: "sorter" | reverse %}
 {% for position in sorted_positions %}
 {% if position.display %}
 <p><strong>{{ position.title }}</strong>, {{ position.company }}, {{ position.location }}, {{ position.dates }}<p>
