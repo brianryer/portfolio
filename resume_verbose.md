@@ -8,7 +8,7 @@ verbosity: verbose
 {% assign this_section = section.type %}
   {% case this_section %}
     {% when 'experience' %}
-      {% assign sorted_positions = (site.resume_positions | sort: "sorter" | reverse %}
+      {% assign sorted_positions = (site.resume_positions | sort: "sorter" | reverse ) %}
       {% for position in sorted_positions %}
         <p><strong>{{position.title}}</strong>, {{position.company}}, {{position.location}}, {{position.dates}}</p>
         {% if page.verbosity == "brief" %}
