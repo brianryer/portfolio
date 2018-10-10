@@ -10,9 +10,8 @@ verbosity: verbose
 {% assign this_section = section.type %}
 {% case this_section %}
   {% when 'experience' %}
-    {% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
+    {% assign sorted_positions = (site.resume_positions | where: position.display = "true" | sort: "sorter") | reverse %}
     {% for position in sorted_positions %}
-      {% if position.display %}
 <p><strong>{{position.title}}</strong>, {{position.company}}, {{position.location}}, {{position.dates}}</p>
       {% if page.verbosity == "brief" %}
 <p>{{position.brief_summary}}</p>
@@ -20,7 +19,6 @@ verbosity: verbose
 <p>{{position.verbose_summary | markdownify }}</p>
       {% else %}
 <p>{{position.standard_summary}}</p>
-      {% endif %}
       {% endif %}
     {% endfor %}
   {% when 'skills' %}
