@@ -7,8 +7,8 @@ verbosity: verbose
 {% assign sorted_sections = (site.resume_sections | sort: "sorter") %}
 {% for section in sorted_sections %}
 ## {{ section.type | capitalize }}
-{% assign this-section = section.type %}
-{% case this-section %}
+{% assign this_section = section.type %}
+{% case this_section %}
   {% when 'experience' %}
     {% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
     {% for position in sorted_positions %}
@@ -29,7 +29,7 @@ verbosity: verbose
 <p><strong>{{- section.name -}}</strong>:&nbsp;{{- section.skills -}}</p>
     {% endfor %}
   {% else %}
-     {{ section.content | markdownify }}
+<p>{{ section.content }}<p>
 {% endcase %}
 
 
