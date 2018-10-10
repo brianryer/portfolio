@@ -2,5 +2,7 @@
 verbosity: standard
 ---
 [Brief](/pages/resume_brief.md)|[Standard](/pages/resume.md)|[Verbose](/pages/resume_verbose.md)|
-{{ include resume_menu.md }}
-{{ include resume_body.md }}
+
+{{ include resume_menu.html }}
+
+{{ include resume_body.html }}
