@@ -3,8 +3,6 @@ verbosity: verbose
 resume_body: /pages/resume_body.md
 ---
 
-{{ include /pages/resume_body.md }}
-
 {% assign sorted_sections = (site.resume_sections | sort: "sorter") %}
 {% for section in sorted_sections %}
 <h2>{{ section.type | capitalize }}</h2>
@@ -12,8 +10,10 @@ resume_body: /pages/resume_body.md
 {% case this_section %}
   {% when 'experience' %}
     {% assign sorted_positions = (site.resume_positions | sort: "sorter" | reverse %}
-    {% for position in ( sorted_positions | where: position.display ) %}
+    {% for position in sorted_positions %}
+    {% if position.display %}
 <p><strong>{{position.title}}</strong>, {{position.company}}, {{position.location}}, {{position.dates}}</p>
+    {% endif %}
       {% if page.verbosity == "brief" %}
 <p>{{position.brief_summary}}</p>
       {% elsif page.verbosity == "verbose" %}
