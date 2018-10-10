@@ -6,7 +6,7 @@ verbosity: verbose
 
 {% assign sorted_sections = (site.resume_sections | sort: "sorter") %}
 {% for section in sorted_sections %}
-## {{ section.type | capitalize }}
+## {{ section.type | capitalize | markdownify }}
 {% assign this_section = section.type %}
 {% case this_section %}
   {% when 'experience' %}
@@ -31,10 +31,6 @@ verbosity: verbose
   {% else %}
 <p>{{ section.content }}<p>
 {% endcase %}
-
-
-
-
 
 {% endfor %}
 <!-- leaving the datapoint as 'type' although title would be better...
