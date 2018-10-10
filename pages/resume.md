@@ -4,7 +4,7 @@ verbosity: standard
 
 [Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](esume_verbose.md)|
 
-{% assign sorted_sections =  site.resume_sections | sort: "sorter" %}
+{% assign sorted_sections = site.resume_sections | sort: "sorter" %}
 {% for section in sorted_sections %}
 <h2>{{ section.type | capitalize }}</h2>
 {% assign this_section = section.type %}
