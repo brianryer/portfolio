@@ -2,4 +2,4 @@
 verbosity: standard
 ---
 
-{{ include_relative /pages/resume_body.md }}
+{{ include resume_body.md }}
