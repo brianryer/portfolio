@@ -3,7 +3,7 @@ verbosity: brief
 ---
 {{ include /pages/resume_body.md }}
 
-[Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
+[Brief](pages/resume_brief.md)|[Standard](pages/resume.md)|[Verbose](pages/resume_verbose.md)|
 
 ## Profile
 {% assign profile_section = (site.resume_sections | where: "type", "profile" ) %}
