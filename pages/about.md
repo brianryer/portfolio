@@ -1,3 +1,7 @@
+---
+title: About
+---
+
 # Hello, again.
 
 I'm Brian Ryer. If you're looking for my site, you've found it.
