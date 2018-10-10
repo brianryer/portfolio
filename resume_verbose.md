@@ -12,7 +12,7 @@ resume_body: /pages/resume_body.md
 {% case this_section %}
   {% when 'experience' %}
     {% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
-    {% for position in sorted_positions | where: position.display = "true" %}
+    {% for position in sorted_positions | where: position.display = true %}
 <p><strong>{{position.title}}</strong>, {{position.company}}, {{position.location}}, {{position.dates}}</p>
       {% if page.verbosity == "brief" %}
 <p>{{position.brief_summary}}</p>
