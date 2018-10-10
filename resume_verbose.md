@@ -18,7 +18,7 @@ verbosity: verbose
       {% if page.verbosity == "brief" %}
 <p>{{position.brief_summary}}</p>
       {% elsif page.verbosity == "verbose" %}
-<p>{{position.verbose_summary | markdownify }}</p>
+<p>{{position.{{page.verbosity}}_summary | markdownify }}</p>
       {% else %}
 <p>{{position.standard_summary}}</p>
       {% endif %}
