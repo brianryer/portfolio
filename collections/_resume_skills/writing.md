@@ -1,4 +1,4 @@
 ---
 name: Writing
-skills: "Ulysses, MS Word, oXygen, FrameMaker, Adobe Acrobat, Markdown"
+skills: "Atom, Ulysses, MS Word, oXygen, FrameMaker, Adobe Acrobat, Markdown"
 ---
