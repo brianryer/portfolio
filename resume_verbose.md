@@ -14,13 +14,13 @@ verbosity: verbose
     {% for position in sorted_positions %}
       {% if position.display %}
 <p><strong>{{position.title}}</strong>, {{position.company}}, {{position.location}}, {{position.dates}}</p>
-      {% endif %}
       {% if page.verbosity == "brief" %}
 <p>{{position.brief_summary}}</p>
       {% elsif page.verbosity == "verbose" %}
-<p>{{position.{{page.verbosity}}_summary | markdownify }}</p>
+<p>{{position.verbose_summary | markdownify }}</p>
       {% else %}
 <p>{{position.standard_summary}}</p>
+      {% endif %}
       {% endif %}
     {% endfor %}
   {% when 'skills' %}
