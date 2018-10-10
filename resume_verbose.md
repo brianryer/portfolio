@@ -4,8 +4,8 @@ verbosity: verbose
 
 [Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
 
-{% assign sections = (site.resume_sections) %}
-{% for section in sections %}
+{% assign sorted_sections = (site.resume_sections | sort: "sorter") %}
+{% for section in sorted_sections %}
 ## {{ section.type | capitalize }}
 {% assign this-section = section.type %}
 {% case this-section %}
