@@ -2,6 +2,8 @@
 verbosity: standard
 ---
 
+{{ include_relative pages/resume_body.html }}
+
 [Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
 
 ## Profile
