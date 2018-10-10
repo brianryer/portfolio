@@ -2,7 +2,9 @@
 verbosity: standard
 ---
 
-{{ include resume_menu.md }}
+{% include resume_menu.md %}
+
+{% include resume_body.md %}
 
 {% assign sorted_sections = site.resume_sections | sort: "sorter" %}
 {% for section in sorted_sections %}

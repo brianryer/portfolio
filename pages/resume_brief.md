@@ -2,7 +2,9 @@
 verbosity: brief
 ---
 
-{{ include resume_menu.md }}
+{% include resume_menu.md %}
+
+{% include resume_body.md %}
 
 ## Profile
 {% assign profile_section = (site.resume_sections | where: "type", "profile" ) %}
