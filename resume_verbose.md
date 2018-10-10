@@ -11,18 +11,18 @@ verbosity: verbose
           {% assign sorted_positions = (site.resume_positions | sort: "sorter") | reverse %}
           {% for position in sorted_positions %}
             {% if position.display %}
-              <p>{{position.title}}, {{position.company}}, {{position.location}}, {{position.dates}}
+              <p>{{position.title}}, {{position.company}}, {{position.location}}, {{position.dates}}<p>
             {% endif %}
             {% if page.verbosity == "brief" %}
-              <p>{{position.brief_summary | markdownify }}</p>
+                <p>{{position.brief_summary | markdownify }}</p>
               {% elsif page.verbosity == "verbose" %}
-              <p>{{position.{{page.verbosity}}_summary | markdownify }}
+                <p>{{position.{{page.verbosity}}_summary | markdownify }}
               {% else %}
-              <p>{{position.standard_summary | markdownify }}</p>
+                <p>{{position.standard_summary | markdownify }}</p>
             {% endif %}
           {% endfor %}
         {% when 'skills' %}
-          {% assign skills_section = (site.resume_skills) %}
+          {% assign skills_section = site.resume_skills %}
           {% for section in skills_section %}
             <p>{{- section.name -}}: {{- section.skills -}}</p>
           {% endfor %}
