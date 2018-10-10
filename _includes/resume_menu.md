@@ -1,1 +1,1 @@
-[Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
+[Brief](resume_brief.html)|[Standard](resume.html)|[Verbose](resume_verbose.html)|
