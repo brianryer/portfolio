@@ -3,7 +3,7 @@ verbosity: verbose
 resume_body: /pages/resume_body.md
 ---
 
-{{ include page.resume_body }}
+{{ include /pages/resume_body.md }}
 
 {% assign sorted_sections = (site.resume_sections | sort: "sorter") %}
 {% for section in sorted_sections %}
