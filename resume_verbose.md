@@ -6,7 +6,7 @@ verbosity: verbose
 
 {% assign sorted_sections = (site.resume_sections | sort: "sorter") %}
 {% for section in sorted_sections %}
-## {{ section.type | capitalize | markdownify }}
+<h2>{{ section.type | capitalize }}</h2>
 {% assign this_section = section.type %}
 {% case this_section %}
   {% when 'experience' %}
