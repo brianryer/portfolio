@@ -1,8 +1,3 @@
----
-title: 33
-description: resume body which handles three experience lengths and a skills collection
----
-
 {% assign sorted_sections = site.resume_sections | sort: "sorter" %}
 {% for section in sorted_sections %}
 <h2>{{ section.type | capitalize }}</h2>
