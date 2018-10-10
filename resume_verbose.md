@@ -12,11 +12,11 @@ verbosity: verbose
       {% for position in sorted_positions %}
         <p><strong>{{position.title}}</strong>, {{position.company}}, {{position.location}}, {{position.dates}}</p>
         {% if page.verbosity == "brief" %}
-          <p>{{position.brief_summary}}</p>
+          <p>{{position.brief_summary | markdownify }}</p>
         {% elsif page.verbosity == "verbose" %}
           <p>{{position.verbose_summary | markdownify }}</p>
         {% else %}
-          <p>{{position.standard_summary}}</p>
+          <p>{{position.standard_summary | markdownify }}</p>
         {% endif %}
       {% endfor %}
     {% when 'skills' %}
