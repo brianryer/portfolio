@@ -2,7 +2,7 @@
 verbosity: brief
 ---
 
-[Brief](resume_brief.md)|[Standard](resume.md)|[Verbose](resume_verbose.md)|
+{{ include resume_menu.md }}
 
 ## Profile
 {% assign profile_section = (site.resume_sections | where: "type", "profile" ) %}
