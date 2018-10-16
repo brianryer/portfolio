@@ -1,6 +1,7 @@
 ---
 type: online
 sorter: 80
+display: true
 ---
 
 Website: [bkryer.com](bkryer.com)
