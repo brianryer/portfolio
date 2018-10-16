@@ -9,7 +9,9 @@ display: true
 <p><strong>{{ position.title }}</strong>, {{ position.company }}, {{ position.location }}, {{ position.dates }}<p>
   {% endif %}
 
-    {{ include.verbosity | inspect }}
+<p> page.verbosity is {{ page.verbosity | inspect }}</p>
+<p> include.verbosity is {{ include.verbosity | inspect }}</p>
+<p> verbosity is {{ verbosity | inspect }}</p>
 
   {% if page.verbosity == "brief" %}
 <p>{{ position.brief_summary | markdownify }}</p>
