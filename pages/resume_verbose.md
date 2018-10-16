@@ -4,4 +4,4 @@ verbosity: verbose
 
 {% include resume_menu.md %}
 
-{% include resume_body.md %}
+{% include resume_body.md verbosity='verbose' %}
