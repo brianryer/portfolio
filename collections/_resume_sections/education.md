@@ -1,5 +1,5 @@
 ---
-type: education
+name: education
 sorter: 30
 display: true
 ---

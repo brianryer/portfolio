@@ -1,5 +1,5 @@
 ---
-type: service
+name: service
 sorter: 50
 display: true
 ---

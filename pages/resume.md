@@ -3,5 +3,7 @@ verbosity: standard
 ---
 
 {% include resume_menu.md %}
-
-{% include resume_body.md the-verbosity = {{ page.verbosity}} %}
+{% capture this_verbosity %}
+{{ page.verbosity }}
+{% endcapture %}
+{% include resume_body.md verbose=this_verbosity %}

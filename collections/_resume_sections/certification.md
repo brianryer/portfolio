@@ -1,5 +1,5 @@
 ---
-type: certification
+name: certification
 sorter: 40
 display: true
 ---

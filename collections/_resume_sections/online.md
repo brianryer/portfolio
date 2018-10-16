@@ -1,5 +1,5 @@
 ---
-type: online
+name: online
 sorter: 80
 display: true
 ---

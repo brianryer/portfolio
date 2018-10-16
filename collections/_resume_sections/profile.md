@@ -1,5 +1,5 @@
 ---
-type: profile
+name: profile
 sorter: 10
 display: true
 ---
