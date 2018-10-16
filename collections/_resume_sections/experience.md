@@ -8,9 +8,9 @@ display: true
   {% if position.display %}
 <p><strong>{{ position.title }}</strong>, {{ position.company }}, {{ position.location }}, {{ position.dates }}<p>
   {% endif %}
-  {% if the_verbosity == "brief" %}
+  {% if page.the_verbosity == "brief" %}
 <p>{{ position.brief_summary | markdownify }}</p>
-  {% elsif the_verbosity == "verbose" %}
+  {% elsif page.the_verbosity == "verbose" %}
 <p>{{ position.verbose_summary | markdownify }}
   {% else %}
 <p>{{ position.standard_summary | markdownify }}</p>
