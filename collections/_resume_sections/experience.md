@@ -3,8 +3,6 @@ name: experience
 sorter: 20
 display: true
 ---
-{{ this_verbosity | inspect }}
-{{ include.verbose | inspect }}
 {% assign sorted_positions = site.resume_positions | sort: "sorter" | reverse %}
 {% for position in sorted_positions %}
   {% if position.display %}
