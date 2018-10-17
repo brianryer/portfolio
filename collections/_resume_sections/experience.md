@@ -9,7 +9,7 @@ display: true
   {% if position.display %}
 <p><strong>{{ position.title }}</strong>, {{ position.company }}, {{ position.location }}, {{ position.dates }}<p>
   {% endif %}
-  {{ page.verbosity | inspect }}
+  {{ verbage | inspect }}
   {% if page.verbosity == "brief" %}
 <p>{{ position.brief_summary | markdownify }}</p>
   {% elsif page.verbosity == "verbose" %}
