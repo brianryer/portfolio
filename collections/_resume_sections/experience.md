@@ -3,7 +3,7 @@ name: experience
 sorter: 20
 display: true
 ---
-{% assign theverbosity = include.variable-param %}
+
 {% assign sorted_positions = site.resume_positions | sort: "sorter" | reverse %}
 {% for position in sorted_positions %}
   {% if position.display %}
