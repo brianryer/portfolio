@@ -11,7 +11,7 @@ display: true
   {% endif %}
   {% if page.verbosity == "brief" %}
 <p>{{ position.brief_summary | markdownify }}</p>
-  {% elsif include.variable-param == "verbose" %}
+  {% elsif page.verbosity == "verbose" %}
 <p>{{ position.verbose_summary | markdownify }}
   {% else %}
 <p>{{ position.standard_summary | markdownify }}</p>
