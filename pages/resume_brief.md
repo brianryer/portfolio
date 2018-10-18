@@ -19,8 +19,8 @@ verbosity: brief
       {% endfor %}
   {% elsif section.name == 'skills' %}
     {% assign skills_section = site.resume_skills | sort: 'sorter' %}
-      {% for section in skills_section %}
-<p><strong>{{ section.name }}</strong>: {{ section.skills }}</p>
+      {% for skill-type in skills_section %}
+<p><strong>{{ skill-type.name }}</strong>: {{ skill-type.skills }}</p>
       {% endfor %}
   {% else %}
 <p>{{ section.content }}</p>
