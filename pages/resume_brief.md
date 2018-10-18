@@ -6,4 +6,3 @@ verbosity: brief
 {% include resume_body.md variable-param=page.verbosity %}
 
 {{ page.verbosity | inspect }}
-{{ include.variable-param | inspect }}
