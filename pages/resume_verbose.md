@@ -10,7 +10,13 @@ verbosity: verbose
 <h2>{{ section.name | capitalize }}</h2>
   {% endif %}
   {% if section.name == 'experience' %}
-<p>{{ position.verbose_summary | markdownify }}</p>
+    {% assign sorted_positions = site.resume_positions | sort: "sorter" | reverse %}
+      {% for position in sorted_positions %}
+        {% if position.display %}
+<p><strong>{{ position.title }}</strong>, {{ position.company }}, {{ position.location }}, {{ position.dates }}</p>
+        {% endif %}
+<p>{{ position.brief_summary | markdownify }}</p>
+      {% endfor %}
   {% elsif section.name == 'skills' %}
     {% assign skills_section = site.resume_skills | sort: 'sorter' %}
       {% for section in skills_section %}
