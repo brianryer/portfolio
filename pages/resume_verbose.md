@@ -15,7 +15,7 @@ verbosity: verbose
         {% if position.display %}
 <p><strong>{{ position.title }}</strong>, {{ position.company }}, {{ position.location }}, {{ position.dates }}</p>
         {% endif %}
-<p>{{ position.brief_summary | markdownify }}</p>
+<p>{{ position.verbose_summary | markdownify }}</p>
       {% endfor %}
   {% elsif section.name == 'skills' %}
     {% assign skills_section = site.resume_skills | sort: 'sorter' %}
