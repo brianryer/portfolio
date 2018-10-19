@@ -9,7 +9,8 @@
         {% if position.display %}
 <p><strong>{{ position.title }}</strong>, {{ position.company }}, {{ position.location }}, {{ position.dates }}</p>
         {% endif %}
-        {% case page.verbosity %}
+        {% assign v=include.theverbosity %}
+        {% case v %}
           {% when 'brief" '%}
 <p>{{ position.brief_summary | markdownify }}</p>
           {% when 'verbose" '%}
