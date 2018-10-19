@@ -14,9 +14,9 @@
         {% endif %}
         {% assign v = page.verbosity %}
         {% case v %}
-        {% when 'brief" '%}
+        {% when 'brief' %}
 <p>{{ position.brief_summary | markdownify }}</p>
-        {% when 'verbose" '%}
+        {% when 'verbose' %}
 <p>{{ position.verbose_summary | markdownify }}</p>
         {% else %}
 <p>{{ position.standard_summary | markdownify }}</p>
