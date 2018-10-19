@@ -1,6 +1,3 @@
----
----
-
 {% assign sorted_sections = site.resume_sections | sort: 'sorter' %}
 {% for section in sorted_sections %}
   {% if section.display %}
