@@ -2,5 +2,5 @@
 verbosity: verbose
 ---
 
-{% include resume_menu.md %}
+{% include resume_menu.md theverbosity=page.verbosity %}
 {% include resume_body.md theverbosity=page.verbosity %}
