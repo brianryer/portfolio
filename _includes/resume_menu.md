@@ -1,2 +1,2 @@
-# Resumé
+# Resumé {% if include.theverbosity == 'brief'%}!{% indif %}
 [Brief](resume_brief.html)|[Standard](resume.html)|[Verbose](resume_verbose.html)|
