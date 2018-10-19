@@ -23,4 +23,3 @@ verbose_summary: >-
   (SharePoint, Salesforce, Confluence, WalkMe, SnagIt).
 
 ---
-smarsh.com
