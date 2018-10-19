@@ -10,13 +10,7 @@
 <p><strong>{{ position.title }}</strong>, {{ position.company }}, {{ position.location }}, {{ position.dates }}</p>
         {% endif %}
         {% assign v=include.theverbosity %}
-        {% case v %}
-          {% when 'brief" '%}
-<p>{{ position.brief_summary | markdownify }}</p>
-          {% when 'verbose" '%}
-<p>{{ position.verbose_summary | markdownify }}</p>
-          {% else %}
-<p>{{ position.standard_summary | markdownify }}</p>
+
       {% endfor %}
   {% elsif section.name == 'skills' %}
     {% assign skills_section = site.resume_skills | sort: 'sorter' %}
