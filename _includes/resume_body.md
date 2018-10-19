@@ -9,7 +9,12 @@
         {% if position.display %}
 <p><strong>{{ position.title }}</strong>, {{ position.company }}, {{ position.location }}, {{ position.dates }}</p>
         {% endif %}
+        
+{{ include.theverbosity | inspect }}
+{{ page.verbosity | inspect }}
+
 <p>{{ position.verbose_summary | markdownify }}</p>
+
       {% endfor %}
   {% elsif section.name == 'skills' %}
     {% assign skills_section = site.resume_skills | sort: 'sorter' %}
