@@ -2,24 +2,18 @@
 title: Technical Writer
 company: HewlettPackard
 location: 'Vancouver, WA'
-dates: 10/2016-08/2018
-sorter: 201610
+dates: 10/2014-09/2016
+sorter: 201410
 published: true
 display: false
 
 brief_summary: >-
-  Managed customer facing and internal documentation in collaboration with
-  Product Managers and SMEs.
+
 
 standard_summary: >-
-  Wrote, edited, and managed customer facing and internal documentation in
-  collaboration with Product Managers and SMEs; built lightweight content
-  management tools and administered multiple content management systems.
+  Wrote, edited, and managed customer facing Researched, wrote, and edited technical documentation; recorded and edited training videos and related materials; built lightweight product information tools and administered multiple content management systems for R&D Lab of Fortune 500 technology company as contractor.
 
 verbose_summary: >-
-  Wrote, edited, and managed customer facing and internal documentation in
-  collaboration with Product Managers and SMEs; built lightweight content
-  management tools and administered multiple content management systems
-  (SharePoint, Salesforce, Confluence, WalkMe, SnagIt).
+
 
 ---
