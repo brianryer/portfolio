@@ -1,5 +1,5 @@
 {% assign sorted_sections = site.resume_sections | sort: 'sorter' %}
-{% for section in sorted_sections | where: section.display == 'true' %}
+{% for section in sorted_sections | where_exp: "section.display", 'section.display == true' %}
 <h2>{{ section.name | capitalize }}</h2>
   {% if section.name == 'experience' %}
     {% assign sorted_positions = site.resume_positions | sort: "sorter" | reverse %}
