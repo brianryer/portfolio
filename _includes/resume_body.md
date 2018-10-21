@@ -5,7 +5,7 @@
     {% if section.name == 'experience' %}
       {% assign sorted_positions = site.resume_positions | sort: "sorter" | reverse %}
       {% for position in sorted_positions %}
-        {% if position.display %}
+        {% if position.display == 'true' %}
           <p><strong>{{ position.title }}</strong>, {{ position.company }}, {{ position.location }}, {{ position.dates }}</p>
           {% assign v = page.verbosity %}
           {% case v %}
