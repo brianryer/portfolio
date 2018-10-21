@@ -4,8 +4,8 @@ sorter: 40
 display: true
 ---
 
-Goethe Institute, Frankfurt, Germany
-- Mittelstufenprüfung Zertifikat (university proficiency), 1989
+Mittelstufenprüfung Zertifikat (university proficiency):
+- Goethe Institute, Frankfurt Germany, 1989
 
-Doing Journalism with Data, Online
-- European Journalism Centre, 2014
+Doing Journalism with Data, Online:
+- European Journalism Centre, Maastricht, The Netherlands, 2014
