@@ -4,6 +4,7 @@ company: Goldman Sachs
 location: Frankfurt, Germany
 dates: 6/1995-6/2003
 sorter: 199506
+published: true
 display: true
 
 brief_summary:
