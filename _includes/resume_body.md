@@ -21,10 +21,10 @@
         {% endif %}
       {% endfor %}
   {% elsif section.name == 'skills' %}
-    {% assign skills_section = site.resume_skills | sort: 'sorter' %}
-      {% for section in skills_section %}
-      {% if section.display == 'true' %}
-<p><strong>{{ section.name }}</strong>: {{ section.skills }}</p>
+    {% assign skills = site.resume_skills | sort: 'sorter' %}
+      {% for skill in skills %}
+      {% if skill.display == 'true' %}
+<p><strong>{{ skill.name }}</strong>: {{ skill.skills }}</p>
       {% endif %}
       {% endfor %}
   {% else %}
