@@ -9,13 +9,13 @@ display: true
 
 brief_summary:
 
-  Managed multiple publishing projects and associated client accounts; analyzed, designed and built SQL and XML document structures; wrote and edited in-house documentation.
+  Managed publishing projects and associated client accounts.
 
 standard_summary:
 
-  Managed multiple publishing projects and associated client accounts; analyzed, designed and built SQL and XML document structures; wrote and edited in-house documentation.
+  Managed publishing projects and associated client accounts; analyzed, designed and built SQL and XML document structures.
 
 verbose_summary:
 
-  Managed multiple publishing projects and associated client accounts; analyzed, designed and built SQL and XML document structures; wrote and edited in-house documentation.
+  Managed publishing projects and associated client accounts; analyzed, designed and built SQL and XML document structures; wrote and edited in-house documentation.
 ---
