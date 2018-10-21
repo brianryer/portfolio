@@ -9,14 +9,14 @@ display: true
 
 brief_summary:
 
-Designed, built and maintained equity tracking database and reporting tools in MS Excel for Lattice Capital Management; managed project to build and populated CMS using XML, Python and Adobe InDesign for website and internal production of materials for LitART LLC; designed and built various websites with HTML, XML, CSS and Javascript; trained users to maintain websites.
+  Designed, built and maintained equity tracking database and reporting tools in MS Excel for Lattice Capital Management; managed project to build and populated CMS using XML, Python and Adobe InDesign for website and internal production of materials for LitART LLC; designed and built various websites with HTML, XML, CSS and Javascript; trained users to maintain websites.
 
 standard_summary:
 
-Designed, built and maintained equity tracking database and reporting tools in MS Excel for Lattice Capital Management; managed project to build and populated CMS using XML, Python and Adobe InDesign for website and internal production of materials for LitART LLC; designed and built various websites with HTML, XML, CSS and Javascript; trained users to maintain websites.
+  Designed, built and maintained equity tracking database and reporting tools in MS Excel for Lattice Capital Management; managed project to build and populated CMS using XML, Python and Adobe InDesign for website and internal production of materials for LitART LLC; designed and built various websites with HTML, XML, CSS and Javascript; trained users to maintain websites.
 
 verbose_summary:
-  
-Designed, built and maintained equity tracking database and reporting tools in MS Excel for Lattice Capital Management; managed project to build and populated CMS using XML, Python and Adobe InDesign for website and internal production of materials for LitART LLC; designed and built various websites with HTML, XML, CSS and Javascript; trained users to maintain websites.
+
+  Designed, built and maintained equity tracking database and reporting tools in MS Excel for Lattice Capital Management; managed project to build and populated CMS using XML, Python and Adobe InDesign for website and internal production of materials for LitART LLC; designed and built various websites with HTML, XML, CSS and Javascript; trained users to maintain websites.
 
 ---
