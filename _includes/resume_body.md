@@ -18,14 +18,17 @@
           {% endcase %}
         {% endif %}
       {% endfor %}
-    {% elsif section.name == 'skills' %}
-      {% assign skillset = site.resume_skills | sort: 'sorter' %}
-      {% for skill in skillset %}
-        {% if skill.display == 'true' %}
-          <p><strong>{{ skill.name }}</strong>: {{ skill.skills }}</p>
-        {% endif %}
-      {% endfor %}
+      {% elsif section.name == 'skills' %}
+        {% assign skillset = site.resume_skills | sort: 'sorter' %}
+        {% for skill in skillset %}
+          {% if skill.display == 'true' %}
+            <p><strong>{{ skill.name }}</strong>: {{ skill.skills }}</p>
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        <p>{{ section.content }}</p>
+    {% endif %}
     {% else %}
-      <p>{{ section.content }}</p>
+    huh
   {% endif %}
 {% endfor %}
