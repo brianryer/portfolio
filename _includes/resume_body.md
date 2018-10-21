@@ -4,7 +4,7 @@
   {% if section.name == 'experience' %}
     {% assign sorted_positions = site.resume_positions | sort: "sorter" | reverse %}
     {% for position in sorted_positions | where: position.display == 'true' %}
-<p><strong>{{ position.title }}</strong>, {{ position.company }}, {{ position.location }}, {{ position.dates }}</p>
+<p><strong>{{ position.title }}</strong>, {{ position.company }},<br/>{{ position.location }}, {{ position.dates }}</p>
         {% assign v = page.verbosity %}
         {% case v %}
           {% when 'brief' %}
@@ -21,6 +21,6 @@
 <p><strong>{{ skill.name }}</strong>: {{ skill.skills }}</p>
     {% endfor %}
   {% else %}
-<p>{{ section.content }}</p>
+<p>{{- section.content -}}</p>
   {% endif %}
 {% endfor %}
