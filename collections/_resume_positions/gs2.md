@@ -1,7 +1,7 @@
 ---
 title: Presentation Center Coordinator
 company: Goldman Sachs
-location: Vancouver, WA
+location: Frankfurt, Germany
 dates: 6/1995-6/2003
 sorter: 199506
 published: true
