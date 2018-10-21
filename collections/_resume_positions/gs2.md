@@ -7,13 +7,16 @@ sorter: 199506
 published: true
 display: true
 
-brief_summary: >-
+brief_summary:
+
   Led and coordinated 10 member presentation team.
 
-standard_summary: >-
+standard_summary:
+
   Led and coordinated 10 member presentation team; designed and built presentations with MS PowerPoint for internal and external clients; designed and built time sheet application in MS Excel.
 
-verbose_summary: >-
+verbose_summary:
+
   Led and coordinated 10 member presentation team; designed and built presentations with MS PowerPoint for internal and external clients; designed and built time sheet application in MS Excel; designed and built conference communications databases in MS Access.
 
 

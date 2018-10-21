@@ -7,13 +7,16 @@ sorter: 201610
 published: true
 display: true
 
-brief_summary: >-
+brief_summary:
+  
   Managed customer facing and internal documentation in collaboration with Product Managers and SMEs.
 
-standard_summary: >-
+standard_summary:
+
   Wrote, edited, and managed customer facing and internal documentation in collaboration with Product Managers and SMEs; built lightweight content management tools and administered multiple content management systems.
 
-verbose_summary: >-
+verbose_summary:
+
   Wrote, edited, and managed customer facing and internal documentation in collaboration with Product Managers and SMEs; built lightweight content management tools and administered multiple content management systems   (SharePoint, Salesforce, Confluence, WalkMe, SnagIt).
 
 ---
