@@ -8,12 +8,12 @@ published: true
 display: true
 
 brief_summary:
-  
-  Managed customer facing and internal documentation in collaboration with Product Managers and SMEs.
+
+  Managed customer facing and internal documentation.
 
 standard_summary:
 
-  Wrote, edited, and managed customer facing and internal documentation in collaboration with Product Managers and SMEs; built lightweight content management tools and administered multiple content management systems.
+  Wrote, edited, and managed customer facing and internal documentation in collaboration with Product Managers and SMEs.
 
 verbose_summary:
 

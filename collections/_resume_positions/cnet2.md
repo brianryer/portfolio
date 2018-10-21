@@ -9,14 +9,14 @@ display: true
 
 brief_summary:
 
-  Wrote and edited documentation for multiple web applications with FrameMaker; wrote responses to RFP’s for multiple products with MS Word and Adobe Acrobat; managed projects for front-end redesign of client forms; designed, built, tested and maintained web forms using XML, HTML, CSS, Javascript and proprietary languages.
+  Wrote and edited documentation for multiple web applications; wrote responses to RFP’s for multiple products.
 
 standard_summary:
 
-  Wrote and edited documentation for multiple web applications with FrameMaker; wrote responses to RFP’s for multiple products with MS Word and Adobe Acrobat; managed projects for front-end redesign of client forms; designed, built, tested and maintained web forms using XML, HTML, CSS, Javascript and proprietary languages.
+  Wrote and edited documentation for multiple web applications with FrameMaker; wrote responses to RFP’s for multiple products with MS Word and Adobe Acrobat.
 
 verbose_summary:
 
-  Wrote and edited documentation for multiple web applications with FrameMaker; wrote responses to RFP’s for multiple products with MS Word and Adobe Acrobat; managed projects for front-end redesign of client forms; designed, built, tested and maintained web forms using XML, HTML, CSS, Javascript and proprietary languages.
+  Wrote and edited documentation for multiple web applications with FrameMaker; wrote responses to RFP’s for multiple products with MS Word and Adobe Acrobat.
 
 ---

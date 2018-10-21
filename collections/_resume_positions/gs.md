@@ -13,7 +13,7 @@ brief_summary:
 
 standard_summary:
 
-  Led and coordinated 10 member presentation team; designed and built presentations with MS PowerPoint for internal and external clients; designed and built time sheet application in MS Excel.
+  Led and coordinated 10 member presentation team; designed and built presentations; designed and built time sheet application.
 
 verbose_summary:
 
