@@ -9,14 +9,14 @@ display: true
 
 brief_summary:
 
-  Analyzed and distributed financial data and news; led and coordinated 10 member team.
+  Analyzed and distributed financial data and news.
 
 standard_summary:
 
-  Analyzed and distributed financial data and news with multiple products; acted as web master for Information Services Group intranet; managed content library with multiple sources; led and coordinated 10 member presentation team; built applications with MS Office.
+  Analyzed and distributed financial data and news with multiple products; acted as web master for Information Services Group intranet; managed content library with multiple sources.
 
 verbose_summary:
 
-  Analyzed and distributed financial data and news with multiple products; acted as web master for Information Services Group intranet; managed content library with multiple sources; led and coordinated 10 member presentation team; designed and built presentations with MS PowerPoint for internal and external clients; designed and built time sheet application in MS Excel; designed and built conference communications databases in MS Access.
+  Analyzed and distributed financial data and news with multiple products; acted as web master for Information Services Group intranet; managed content library with multiple sources; designed and built time sheet application in MS Excel; designed and built conference communications databases in MS Access.
 
 ---

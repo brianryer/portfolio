@@ -1,7 +1,7 @@
 ---
 title: Technical Writer
 company: Hewlett Packard
-location: 'Vancouver, WA'
+location: Vancouver, WA
 dates: 10/2014-09/2016
 sorter: 201410
 published: true

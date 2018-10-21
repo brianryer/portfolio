@@ -1,7 +1,7 @@
 ---
 title: Technical Writer
 company: CollegeNET
-location: 'Portland, OR'
+location: Portland, OR
 dates: 11/2009-8/2013
 sorter: 200911
 published: true
