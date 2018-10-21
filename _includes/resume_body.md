@@ -1,8 +1,8 @@
 {% assign sorted_sections = site.resume_sections | sort: 'sorter' %}
 {% for section in sorted_sections %}
-  {% if section.display %}
+  {% if section.display == 'true' %}
     <h2>{{ section.name | capitalize }}</h2>
-  {% if section.name == 'experience' %}
+    {% if section.name == 'experience' %}
       {% assign sorted_positions = site.resume_positions | sort: "sorter" | reverse %}
       {% for position in sorted_positions %}
         {% if position.display %}
@@ -18,14 +18,15 @@
           {% endcase %}
         {% endif %}
       {% endfor %}
-  {% elsif section.name == 'skills' %}
+    {% elsif section.name == 'skills' %}
     {% assign skillset = site.resume_skills | sort: 'sorter' %}
       {% for skill in skillset %}
         {% if skill.display == 'true' %}
           <p><strong>{{ skill.name }}</strong>: {{ skill.skills }}</p>
         {% endif %}
       {% endfor %}
-  {% else %}
+    {% else %}
     <p>{{ section.content }}</p>
+    {% endif %}
   {% endif %}
 {% endfor %}
