@@ -6,7 +6,7 @@ Please continue reading here to learn something about my understanding of techni
 
 ---
 
-### TECHNICAL COMMUNICATION
+### TECHNICAL COMMUNICATION 
 
 Technical communication connects those with information to those who need that information. It connects your message to your audience, your clients to your products and services, your employees to your organizational goals.
 
