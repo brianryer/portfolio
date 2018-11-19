@@ -8,6 +8,13 @@ div.wrapper {width: 960px !important;}
 div.wrapper section {width: 660px !important;}
 */
 
+$spacing-unit:     20px !default;
+
+$content-width:    840px !default;
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+
 header img.site-logo {border: solid 2px slategray; border-radius: 6px; margin-left: -2px; max-width: 220px !important;}
 
 section img.image-bullet {float: left; margin: 0 1rem 1rem 0;}
