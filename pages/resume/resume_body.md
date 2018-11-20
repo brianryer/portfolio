@@ -26,7 +26,9 @@
     {% endfor %}
 </div>
   {% else %}
-<div class="other-content"<p class="other-content">{{- section.content -}}</p></div>
+<div class="other-content">
+  <p class="other-content">{{- section.content -}}</p>
+</div>
   {% endif %}
 {% endfor %}
 </div>
