@@ -13,9 +13,9 @@
             <div class="position-summary">
                   {% assign v = page.verbosity %}
                   {% case v %}
-                    {% when 'brief' %}{{ position.brief_summary | markdownify }}
-                    {% when 'verbose' %}{{ position.verbose_summary | markdownify }}
-                    {% else %}{{ position.standard_summary | markdownify }}
+                    {% when 'brief' %}{{ position.brief_summary }}
+                    {% when 'verbose' %}{{ position.verbose_summary }}
+                    {% else %}{{ position.standard_summary }}
                   {% endcase %}
             </div>
           </div>
@@ -29,8 +29,7 @@
         {% endfor %}
       {% else %}
         <div class="other-content">
-          <p class="other-content">{{ section.content | markdownify }}</p>
-          {{ page.profile_brief }}
+          <p class="other-content">{{ section.content }}</p>
         </div>
       {% endif %}
   </div>
