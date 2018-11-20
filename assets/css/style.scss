@@ -35,9 +35,11 @@ section p {margin-bottom: .5rem !important;}
 section p.inline-slogan {margin-bottom: .25rem; font-style: italic;}
 
 section div.position-title p {margin-top: 1.5rem;}
-section div.position-title p span.position-company {font-weight: 600}
-section div.position-title p span.position-location {font-weight: 200}
-section div.position-title p span.position-dates {font-weight: 200}
+section div.position-title p span.position-company {font-weight: 600; font-size: -1;}
+section div.position-title p span.position-location {font-weight: lighter;}
+section div.position-title p span.position-dates {font-weight: lighter;}
 
+/*
 section div.position-title {width: 50%; float: left; margin-right: 1em;}
 section div.position-summary {width: 50%; float: left; clear: none;}
+*/
