@@ -30,6 +30,7 @@
       {% else %}
         <div class="other-content">
           <p class="other-content">{{ section.content | markdownify }}</p>
+          {{ page.profile_brief }}
         </div>
       {% endif %}
   </div>
