@@ -29,7 +29,7 @@
         {% endfor %}
       {% else %}
         <div class="other-content">
-          <p class="other-content">{{- section.content -}}</p>
+          <p class="other-content">{{ section.content | markdownify }}</p>
         </div>
       {% endif %}
   </div>
