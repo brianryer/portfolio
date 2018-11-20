@@ -7,17 +7,19 @@
       {% assign sorted_positions = site.resume_positions | sort: "sorter" | reverse %}
       {% for position in sorted_positions | where: position.display %}
 <div class="position">
-<div class="position-title"><p><span class="position-title">{{ position.title }}</span>, <span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span>, <span class="position-dates">{{ position.dates }}</span></p>
-</div>
-<div class="position-summary">
-          {% assign v = page.verbosity %}
-          {% case v %}
-            {% when 'brief' %}{{ position.brief_summary | markdownify }}
-            {% when 'verbose' %}{{ position.verbose_summary | markdownify }}
-            {% else %}{{ position.standard_summary | markdownify }}
-          {% endcase %}
+  <div class="position-title">
+    <p><span class="position-title">{{ position.title }}</span>, <span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span>, <span class="position-dates">{{ position.dates }}</span>
+    </p>
+  </div>
+  <div class="position-summary">
+        {% assign v = page.verbosity %}
+        {% case v %}
+          {% when 'brief' %}{{ position.brief_summary | markdownify }}
+          {% when 'verbose' %}{{ position.verbose_summary | markdownify }}
+          {% else %}{{ position.standard_summary | markdownify }}
+        {% endcase %}
+  </div>
       {% endfor %}
-</div>
 </div>
     {% elsif section.name == 'skills' %}
 <div class="skills">
