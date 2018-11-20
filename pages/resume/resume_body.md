@@ -1,3 +1,4 @@
+<div class="{{ include.theverbosity }}">
 {% assign sorted_sections = site.resume_sections | sort: 'sorter' %}
 {% for section in sorted_sections | where: section.display %}
 <h2>{{ section.name | capitalize }}</h2>
@@ -15,14 +16,17 @@
           {% else %}
             {{ position.standard_summary | markdownify }}
         {% endcase %}
-</div>
     {% endfor %}
+</div>
   {% elsif section.name == 'skills' %}
+<div class="skills">
     {% assign skillset = site.resume_skills | sort: 'sorter' %}
     {% for skill in skillset | where: skill.display %}
-<p><strong>{{ skill.name }}</strong>: {{ skill.skills }}</p>
+<p><span class="skill-name">{{ skill.name }}</span>: <span class="skill-skills">{{ skill.skills }}</span></p>
     {% endfor %}
+</div>
   {% else %}
-<p>{{- section.content -}}</p>
+<div class="other-content"<p class="other-content">{{- section.content -}}</p></div>
   {% endif %}
 {% endfor %}
+</div>
