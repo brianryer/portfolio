@@ -4,6 +4,7 @@ sorter: 10
 display: true
 
 brief_profile:
+
   Technical Writer.
 
 standard_profile:
