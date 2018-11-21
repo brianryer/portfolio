@@ -9,7 +9,7 @@ brief_profile:
 
 standard_profile:
 
-  I am a technical writer with web development skills and am fluent in German.
+  I am a technical writer with web development skills, fluent in German.
 
 verbose_profile:
 
