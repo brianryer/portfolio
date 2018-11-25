@@ -9,14 +9,14 @@ display: true
 
 brief_summary:
 
-  Wrote and edited documentation for multiple web applications; wrote responses to RFP’s for multiple products.
+  Wrote documentation for web applications; wrote responses to RFPs.
 
 standard_summary:
 
-  Wrote and edited documentation for multiple web applications with FrameMaker; wrote responses to RFP’s for multiple products with MS Word and Adobe Acrobat.
+  Wrote and edited documentation for multiple web applications; wrote responses to RFPs for multiple products.
 
 verbose_summary:
 
-  Wrote and edited documentation for multiple web applications with FrameMaker; wrote responses to RFP’s for multiple products with MS Word and Adobe Acrobat.
+  Wrote and edited documentation for multiple web applications with FrameMaker; wrote responses to RFPs for multiple products with MS Word and Adobe Acrobat.
 
 ---
