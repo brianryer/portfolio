@@ -1,6 +1,6 @@
 ---
 title: Publishing Specialist
-company: Content Management Associates
+company: Content Management Assoc.
 location: Oregon City, OR
 dates: 6/2005-6/2007
 sorter: 200506
