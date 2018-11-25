@@ -12,4 +12,4 @@ I live with my family in the Pacific Northwest – Portland, Oregon specifically
 
 I was born in New York, grew up in Las Vegas, spent my teen years in Southern California, and lived in Europe for about 20 years before putting down roots in Stumptown. Whew!
 
-Please take away something useful from what you find here. 
+I trust you’ll take away something useful from what you find here. 
