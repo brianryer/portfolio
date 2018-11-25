@@ -3,9 +3,7 @@
 
 @import "{{ site.theme }}";
 
-div.wrapper {width: 960px;}
-// div.wrapper header {width: 305px;}
-div.wrapper section {width: 600px;}
+div.wrapper {font-size: 90%;}
 
 header img.site-logo {border: solid 2px slategray; border-radius: 6px; margin-left: -2px; max-width: 220px !important;}
 
