@@ -3,9 +3,9 @@
 
 @import "{{ site.theme }}";
 
-// div.wrapper {width: 975px;}
+div.wrapper {width: 960px;}
 // div.wrapper header {width: 305px;}
-// div.wrapper section {width: 670px;}
+div.wrapper section {width: 600px;}
 
 header img.site-logo {border: solid 2px slategray; border-radius: 6px; margin-left: -2px; max-width: 220px !important;}
 
@@ -45,5 +45,5 @@ section div.position-summary {width: 50%; float: left; clear: none;}
 
 // resume
 
-.brief table {margin: .75rem 1rem 1.5rem 0 !important;}
-.brief table tr td p {margin: 0 !important; font-size: -1;}
+div.brief table {margin: .75rem 1rem 1.5rem 0 !important;}
+div.brief table tr td p {margin: 0px !important; font-size: smaller;}
