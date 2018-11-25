@@ -19,14 +19,13 @@
         {% assign v = page.verbosity %}
         {% case v %}
           {% when 'brief' %}
-          <div class="position-title">
-            <p><span class="position-title">{{ position.title }}</span><br/>
-               <span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span><br/>
-               <span class="position-dates">{{ position.dates }}</span></p>
-          </div>
-          <div class="position-summary">
-            {{ position.brief_summary }}
-          </div>
+          <table>
+          <tr>
+          <td><p><span class="position-title">{{ position.title }}</span><br/><span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span><br/> <span class="position-dates">{{ position.dates }}</span></p>
+          </td>
+          <td><p><span class="position-summary">{{ position.brief_summary }}</span></p></td>
+          </tr>
+          </table>
           {% when 'verbose' %}
           <div class="position-title">
             <p><span class="position-title">{{ position.title }}</span> &ndash; <span class="position-dates">{{ position.dates }}</span><br/>
