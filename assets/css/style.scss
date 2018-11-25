@@ -3,10 +3,9 @@
 
 @import "{{ site.theme }}";
 
-
-div.wrapper {width: 975px !important;}
-div.wrapper header {width: 305px !important;}
-div.wrapper section {width: 650px !important;}
+// div.wrapper {width: 975px;}
+div.wrapper header {width: 305px;}
+div.wrapper section {width: 650px;}
 
 header img.site-logo {border: solid 2px slategray; border-radius: 6px; margin-left: -2px; max-width: 220px !important;}
 
@@ -43,3 +42,8 @@ section div.position-title p span.position-dates {display: block;}
 section div.position-title {width: 50%; float: left; margin-right: 1em;}
 section div.position-summary {width: 50%; float: left; clear: none;}
 */
+
+// resume
+
+.brief table {margin: .75rem 1rem 1.5rem 0 !important;}
+.brief table tr td p {margin: 0 !important; font-size: -1;}
