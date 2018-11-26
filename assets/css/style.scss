@@ -39,16 +39,16 @@ section div.position-summary {width: 50%; float: left; clear: none;}
 
 // resume
 // standard
-section div.standard div.position-title p {margin-top: 1.5rem;}
-section div.standard div.position-title p span.position-company {font-weight: 600; font-size: -2;}
-section div.standard div.position-title p span.position-location {font-weight: lighter;}
-section div.standard div.position-title p span.position-dates {display: block;}
+section .standard .position p {margin-top: 1.5rem;}
+section .standard .position .position-company {font-weight: 600; font-size: -2;}
+section .standard .position .position-location {font-weight: lighter;}
+section .standard .position .position-dates {display: block;}
 
 // brief
-section div.brief td {vertical-align: top !important; padding: 0px;}
-section div.brief td p {margin-left: 0px !important;}
+section .brief td {vertical-align: top !important; padding: 0px;}
+section .brief td p {margin-left: 0px !important;}
 
-section div.brief div.position-title p {margin-top: .5rem;}
-section div.brief div.position-title p span.position-company,
-section div.brief div.position-title p span.position-location, 
-section div.brief div.position-title p span.position-dates {font-weight: 600; font-size: -2;}
+section .brief .position p {margin-top: .5rem;}
+section .brief .position-title .position-company,
+section .brief .position-title .position-location,
+section .brief .position-title .position-dates {font-weight: 600; font-size: -2;}
