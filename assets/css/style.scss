@@ -40,15 +40,15 @@ section div.position-summary {width: 50%; float: left; clear: none;}
 // resume
 // standard
 section .standard .position p {margin-top: 1.5rem;}
-section .standard .position .position-company {font-weight: 600; font-size: -2;}
-section .standard .position .position-location {font-weight: lighter;}
-section .standard .position .position-dates {display: block;}
+section .standard .position span.position-company {font-weight: 600; font-size: -2;}
+section .standard .position span.position-location {font-weight: lighter;}
+section .standard .position span.position-dates {display: block;}
 
 // brief
 section .brief td {vertical-align: top !important; padding: 0px;}
 section .brief td p {margin-left: 0px !important;}
 
 section .brief .position p {margin-top: .5rem;}
-section .brief .position .position-company,
-section .brief .position .position-location,
-section .brief .position .position-dates {font-weight: 600; font-size: -2;}
+section .brief .position span.position-company,
+section .brief .position span.position-location,
+section .brief .position span.position-dates {font-weight: 600; font-size: -2;}
