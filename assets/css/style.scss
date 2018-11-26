@@ -38,6 +38,10 @@ section div.position-summary {width: 50%; float: left; clear: none;}
 */
 
 // resume
+
+section h1[id^="resum"]+p+div.brief table {margin: .5rem 1rem 0rem 0 !important;}
+section h1[id^="resum"]+p+div.brief table tr td {vertical-align: top !important; width: 33%;}
+
 // standard
 section .standard .position p {margin-top: 1.5rem;}
 section .standard .position span.position-company {font-weight: 600; font-size: -2;}
