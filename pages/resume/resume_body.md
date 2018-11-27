@@ -44,7 +44,7 @@
           </div>
           {% else %}
           <div class="position-head">
-            <p><span class="position-title">{{ position.title }}</span>, <span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span>, <span class="position-dates">{{ position.dates }}</span></p>
+            <p><span class="position-title">{{ position.title }}</span> at <span class="position-company">{{ position.company }}</span><br/><span class="position-location">{{ position.location }}</span>, <span class="position-dates">{{ position.dates }}</span></p>
           </div>
           <div class="position-summary">
             {{ position.standard_summary }}
