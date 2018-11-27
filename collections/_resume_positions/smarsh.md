@@ -1,5 +1,5 @@
 ---
-title: Technical Writer & Content Developer
+title: Technical Writer
 company: SMARSH
 location: Portland, OR
 dates: 10/2016-08/2018
