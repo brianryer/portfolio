@@ -19,13 +19,21 @@
         {% assign v = page.verbosity %}
         {% case v %}
           {% when 'brief' %}
+          <div class="position-head">
           <table>
+          <colgroup>
+            <col style="width:30%">
+            <col style="width:70%">
+          </colgroup>
+          <tbody>
           <tr>
           <td><p><span class="position-title">{{ position.title }}</span><br/><span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span><br/> <span class="position-dates">{{ position.dates }}</span><br/></p>
           </td>
           <td><p><span class="position-summary">{{ position.brief_summary }}</span></p></td>
           </tr>
+          </tbody>
           </table>
+          </div>
           {% when 'verbose' %}
           <div class="position-head">
             <p><span class="position-title">{{ position.title }}</span> &ndash; <span class="position-dates">{{ position.dates }}</span><br/>
