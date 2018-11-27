@@ -22,8 +22,8 @@
           <div class="position-head">
           <table>
           <colgroup>
-            <col style="width:40%">
-            <col style="width:80%">
+            <col style="width:45%">
+            <col style="width:55%">
           </colgroup>
           <tbody>
           <tr>
