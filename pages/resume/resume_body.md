@@ -21,13 +21,13 @@
           {% when 'brief' %}
           <table>
           <tr>
-          <td><p><span class="position-title">{{ position.title }}</span><br/><span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span><br/> <span class="position-dates">{{ position.dates }}</span></p>
+          <td><p><span class="position-title">{{ position.title }}</span><br/><span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span><br/> <span class="position-dates">{{ position.dates }}</span><br/></p>
           </td>
           <td><p><span class="position-summary">{{ position.brief_summary }}</span></p></td>
           </tr>
           </table>
           {% when 'verbose' %}
-          <div class="position-title">
+          <div class="position-head">
             <p><span class="position-title">{{ position.title }}</span> &ndash; <span class="position-dates">{{ position.dates }}</span><br/>
                <span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span></p>
           </div>
@@ -35,7 +35,7 @@
             {{ position.verbose_summary }}
           </div>
           {% else %}
-          <div class="position-title">
+          <div class="position-head">
             <p><span class="position-title">{{ position.title }}</span>, <span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span>, <span class="position-dates">{{ position.dates }}</span></p>
           </div>
           <div class="position-summary">

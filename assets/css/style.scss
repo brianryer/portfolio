@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-div.wrapper {font-size: 87.5%;}
+div.wrapper {font-size: 90%;}
 
 header img.site-logo {border: solid 2px slategray; border-radius: 6px; margin-left: -2px; max-width: 220px !important;}
 
@@ -43,8 +43,8 @@ section h1[id^="resum"]+p+div.brief table {margin: .5rem 1rem 0rem 0 !important;
 section h1[id^="resum"]+p+div.brief table tr td {vertical-align: top !important; width: 33%;}
 
 // standard
-section .standard .position p {margin-top: 1.5rem;}
-section .standard .position span.position-company {font-weight: 600; font-size: -2;}
+section .standard .position p {margin-top: 1.5rem; text-transform: uppercase; font-weight: lighter;}
+section .standard .position span.position-company {display: block;}
 section .standard .position span.position-location {font-weight: lighter;}
 section .standard .position span.position-dates {display: block;}
 
