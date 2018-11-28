@@ -1,7 +1,7 @@
 <div class="{{ include.theverbosity }}">
   {%- assign sorted_sections = site.resume_sections | sort: 'sorter' -%}
   {%- for section in sorted_sections -%}
-  {%- if section.display == 'true' -%}  |  
+  {%- unless section.display == 'no' -%} 
   <div class="{{ section.name }}">
     <h2>{{ section.name | capitalize }}</h2>
     {%- if section.name == 'profile' -%}
@@ -14,8 +14,9 @@
         {%- endcase -%}
       </div>
     {%- elsif section.name == 'experience' -%}
-      {%- assign sorted_positions = site.resume_positions | sort: "sorter" | reverse -%}
-      {%- for position in sorted_positions | where: position.display -%}
+      {%- assign sorted_positions = site.resume_positions | sort: 'sorter' | reverse -%}
+      {%- for position in sorted_positions -%}
+      {%- unless position.display == 'no' -%}
       <div class="position">
         {%- assign v = page.verbosity -%}
         {%- case v -%}
@@ -52,6 +53,7 @@
           </div>
         {%- endcase -%}
       </div>
+      {%- endunless -%}
       {%- endfor -%}
     {%- elsif section.name == 'skills' -%}
       {%- assign skillset = site.resume_skills | sort: 'sorter' -%}
@@ -66,6 +68,6 @@
       </div>
     {%- endif -%}
   </div>
-  {%- endif -%}
+  {%- endunless -%}
   {%- endfor -%}
 </div>
