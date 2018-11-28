@@ -1,6 +1,6 @@
 <div class="{{ include.theverbosity }}">
   {% assign sorted_sections = site.resume_sections | sort: 'sorter' %}
-  {% for section in sorted_sections | where: section.display %}
+  {% for section in sorted_sections | where: section.display == 'true' %}
   <div class="{{ section.name }}">
     <h2>{{ section.name | capitalize }}</h2>
     {% if section.name == 'profile' %}
