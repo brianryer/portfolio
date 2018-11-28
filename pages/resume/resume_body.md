@@ -27,7 +27,7 @@
           </colgroup>
           <tbody>
           <tr>
-          <td><p><span class="position-title">{{ position.title }}</span><br/><span class="position-company">{{ position.company }}</span><br/><span class="position-location">{{ position.location }}</span><br/> <span class="position-dates">{{ position.dates }}</span><br/></p>
+          <td><p><span class="position-title">{{ position.title }}</span><br/><span class="position-company">{{ position.company }}</span><br/><span class="position-location">{{ position.location }}</span><br/><span class="position-dates">{{ position.dates }}</span><br/></p>
           </td>
           <td><p><span class="position-summary">{{ position.brief_summary }}</span></p></td>
           </tr>
