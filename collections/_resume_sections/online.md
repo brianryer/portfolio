@@ -1,7 +1,6 @@
 ---
 name: online
 sorter: 80
-
 ---
 
 Website: [bkryer.com][1]
