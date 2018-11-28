@@ -1,7 +1,7 @@
 ---
 name: online
 sorter: 80
-display: true
+display: false
 ---
 
 Website: [bkryer.com][1]
