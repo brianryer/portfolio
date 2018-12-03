@@ -31,18 +31,11 @@ section h2+p, section h3+p {margin-top: -.75rem !important;}
 section p {margin-bottom: .5rem !important;}
 section p.inline-slogan {margin-bottom: .25rem; font-style: italic;}
 
-
-/*
-section div.position-title {width: 50%; float: left; margin-right: 1em;}
-section div.position-summary {width: 50%; float: left; clear: none;}
-*/
-
 // resume
 
 section .position p {margin-top: .5rem !important;}
-section .position h4 p {margin-top: 0rem !important;}
+section .position h4+p {margin-top: 0rem !important;}
 section .position span.position-title {font-weight: 600; font-size: smaller}
 section .position span.position-company,
 section .position span.position-location,
 section .position span.position-dates {font-size: smaller}
-// verbose
