@@ -4,6 +4,7 @@ sorter: 80
 display: no
 ---
 #### Website: [bkryer.com][1]
+
 #### LinkedIn: [linkedin.com/in/bkryer][2]
 
 [1]:	http://bkryer.com "brianryer dot com"

@@ -2,7 +2,7 @@
 title: Technical Writer
 company: SMARSH
 location: Portland, OR
-dates: 10/2016-08/2018
+dates: 10/2016 &ndash; 08/2018
 sorter: 201610
 published: true
 display: true

@@ -1,5 +1,5 @@
 ---
-title: 'Freelance Developer'
+title: 'Content Developer'
 company: 'Various Small Businesses'
 location: 'Portland, OR'
 dates: '6/2007-11/2009 & 9/2013-10/2014'

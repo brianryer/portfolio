@@ -1,6 +1,7 @@
 ---
 name: Web Technologies
-skills: "HTML, CSS, Javascript, SQL, XML/XSLT/XQuery"
+skills:
+  HTML, CSS, Javascript, SQL, XML/XSLT/XQuery
 sorter: 30
 display: true
 ---
