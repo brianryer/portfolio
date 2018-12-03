@@ -1,5 +1,5 @@
 ---
-title: Data Resource Group Administrator
+title: Data Resource Group Admin.
 company: Goldman Sachs
 location: Frankfurt, Germany
 dates: 7/1999-6/2003

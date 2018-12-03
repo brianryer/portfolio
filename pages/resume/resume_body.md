@@ -19,7 +19,7 @@
         {%- for position in sorted_positions -%}
         {%- unless position.display == 'no' -%}
           <div class="position-head">
-          <h4><span class="position-title">{{- position.title -}}</span>, <span class="position-company">{{- position.company -}}</span>, <span class="position-location">{{- position.location -}}</span>, <span class="position-dates">{{- position.dates -}}</span></h4>
+          <h4><span class="position-title">{{- position.title -}}</span>, <span class="position-company">{{- position.company -}}</span>, <span class="position-location">{{- position.location -}}</span><br/><span class="position-dates">{{- position.dates -}}</span></h4>
           </div>
           <div class="position-summary">
           <p><span class="position-summary">

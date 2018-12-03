@@ -1,5 +1,5 @@
 ---
-title: Presentation Center Coordinator
+title: Presentation Center Admin.
 company: Goldman Sachs
 location: Frankfurt, Germany
 dates: 6/1995-6/1999
