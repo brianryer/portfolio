@@ -39,11 +39,10 @@ section div.position-summary {width: 50%; float: left; clear: none;}
 
 // resume
 
-section .position p {margin-top: .5rem;}
-section .position h4 p {margin-top: 0rem;}
+section .position p {margin-top: .5rem !important;}
+section .position h4 p {margin-top: 0rem !important;}
 section .position span.position-title {font-weight: 600; font-size: smaller}
 section .position span.position-company,
 section .position span.position-location,
-section .position span.position-dates,
-
+section .position span.position-dates {font-size: smaller}
 // verbose
