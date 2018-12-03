@@ -1,7 +1,7 @@
 ---
 name: education
 sorter: 30
-display: true
+display: 1
 ---
 #### University of Maryland, Frankfurt, Germany
 Linguistics (non degree, AA equivalent), 1988
