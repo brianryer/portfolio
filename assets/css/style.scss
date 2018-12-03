@@ -39,21 +39,13 @@ section div.position-summary {width: 50%; float: left; clear: none;}
 
 // resume
 
-section h1[id^="resum"]+p+div.brief table {margin: .5rem 1rem 0rem 0 !important;}
-section h1[id^="resum"]+p+div.brief table tr td {vertical-align: top !important;}
+section .position p {margin-top: 1.5rem; text-transform: uppercase; font-weight: 600; font-size: 90%;}
 
-// standard
-section .standard .position p {margin-top: 1.5rem; text-transform: uppercase; font-weight: 600; font-size: 90%;}
-
-// brief
-section .brief td {vertical-align: top !important; padding: 0px;}
-section .brief td p {margin-left: 0px !important;}
-
-section .brief .position p {margin-top: .5rem;}
-section .brief .position span.position-title {font-weight: 600; font-size: smaller}
-section .brief .position span.position-company,
-section .brief .position span.position-location,
-section .brief .position span.position-dates,
-section .brief .position span.position-summary {font-size: smaller;}
+section .position p {margin-top: .5rem;}
+section .position span.position-title {font-weight: 600; font-size: smaller}
+section .position span.position-company,
+section .position span.position-location,
+section .position span.position-dates,
+section .position span.position-summary {font-size: smaller;}
 
 // verbose

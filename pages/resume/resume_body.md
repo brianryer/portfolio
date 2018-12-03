@@ -1,7 +1,7 @@
 <div class="{{ include.theverbosity }}">
   {%- assign sorted_sections = site.resume_sections | sort: 'sorter' -%}
   {%- for section in sorted_sections -%}
-  {%- unless section.display == 'no' -%} 
+  {%- unless section.display == 'no' -%}
   <div class="{{ section.name }}">
     <h2>{{ section.name | capitalize }}</h2>
     {%- if section.name == 'profile' -%}
@@ -18,40 +18,21 @@
       {%- for position in sorted_positions -%}
       {%- unless position.display == 'no' -%}
       <div class="position">
+      <div class="position-head">
+        <p><span class="position-title">{{ position.title }}</span> , <span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span>, <span class="position-dates">{{ position.dates }}</span></p>
+      </div>
+      <div class="position-summary">
+        <p><span class="position-summary">
         {%- assign v = page.verbosity -%}
         {%- case v -%}
           {%- when 'brief' -%}
-          <div class="position-head">
-          <table>
-          <colgroup>
-            <col style="width:40%">
-            <col style="width:60%">
-          </colgroup>
-          <tbody>
-          <tr>
-          <td><p><span class="position-title">{{ position.title }}</span><br/><span class="position-company">{{ position.company }}</span><br/><span class="position-location">{{ position.location }}</span><br/><span class="position-dates">{{ position.dates }}</span><br/></p>
-          </td>
-          <td><p><span class="position-summary">{{ position.brief_summary }}</span></p></td>
-          </tr>
-          </tbody>
-          </table>
-          </div>
+            {{ position.brief_summary }}
           {%- when 'verbose' -%}
-          <div class="position-head">
-            <p><span class="position-title">{{ position.title }}</span> &ndash; <span class="position-dates">{{ position.dates }}</span><br/>
-               <span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span></p>
-          </div>
-          <div class="position-summary">
             {{ position.verbose_summary }}
-          </div>
           {%- else -%}
-          <div class="position-head">
-            <p><span class="position-title">{{ position.title }}</span> , <span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span>, <span class="position-dates">{{ position.dates }}</span></p>
-          </div>
-          <div class="position-summary">
             {{ position.standard_summary }}
-          </div>
         {%- endcase -%}
+        </span></p>
       </div>
       {%- endunless -%}
       {%- endfor -%}
