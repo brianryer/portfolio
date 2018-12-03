@@ -5,7 +5,7 @@ location: 'Portland, OR'
 dates: '6/2007-11/2009 & 9/2013-10/2014'
 sorter: 200706
 published: true
-display: true
+display: no
 
 brief_summary:
 
