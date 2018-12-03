@@ -19,7 +19,7 @@
       {%- unless position.display == 'no' -%}
       <div class="position">
       <div class="position-head">
-        <p><span class="position-title">{{ position.title }}</span> , <span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span>, <span class="position-dates">{{ position.dates }}</span></p>
+        <h4><span class="position-title">{{ position.title }}</span> , <span class="position-company">{{ position.company }}</span>, <span class="position-location">{{ position.location }}</span>, <span class="position-dates">{{ position.dates }}</span></h4>
       </div>
       <div class="position-summary">
         <p><span class="position-summary">
@@ -40,7 +40,8 @@
       {%- assign skillset = site.resume_skills | sort: 'sorter' -%}
       {%- for skill in skillset | where: skill.display -%}
       <div class="skills">
-        <p><span class="skill-name">{{ skill.name }}</span>: <span class="skill-skills">{{ skill.skills }}</span></p>
+        <h4><span class="skill-name">{{ skill.name }}</span></h4>
+        <p><span class="skill-skills">{{ skill.skills }}</span></p>
       </div>
       {%- endfor -%}
     {%- else -%}
