@@ -1,6 +1,6 @@
 ---
 name: skills
 sorter: 60
-display: true
+display: 1
 ---
 <!-- content in resume_skills collection -->

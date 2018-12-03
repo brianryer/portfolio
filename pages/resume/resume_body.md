@@ -1,7 +1,7 @@
 <div id="resume-body" class="{{ include.theverbosity }}">
   {%- assign sorted_sections = site.resume_sections | sort: 'sorter' --%}
   {%- for section in sorted_sections -%}
-  {%- unless section.display contains 'no' -%}
+  {%- unless section.display == 0 -%}
   <div class="{{ section.name }}">
     <h2>{{ section.name | capitalize }}</h2>
     {%- if section.name == 'profile' -%}
@@ -17,7 +17,7 @@
       <div class="position">
         {%- assign sorted_positions = site.resume_positions | sort: 'sorter' | reverse -%}
         {%- for position in sorted_positions -%}
-        {%- unless position.display contains 'no' -%}
+        {%- unless position.display == 0 -%}
           <div class="position-head">
           <h4><span class="position-title">{{- position.title -}}</span>, <span class="position-company">{{- position.company -}}</span>, <span class="position-location">{{- position.location -}}</span>, <span class="position-dates">{{- position.dates -}}</span></h4>
           </div>

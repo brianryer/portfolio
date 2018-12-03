@@ -1,7 +1,7 @@
 ---
 name: profile
 sorter: 10
-display: true
+display: 1
 
 brief_profile:
 
