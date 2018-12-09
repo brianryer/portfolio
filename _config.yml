@@ -3,6 +3,8 @@ description: Technical Writer | Content Developer
 theme: jekyll-theme-minimal
 logo: "/assets/img/forum_image_square.png"
 
+paginate: 2
+
 tagline_morning: You look great!
 tagline_evening: Enough with the taglines already!
 tagline_special: Soup is good food.
