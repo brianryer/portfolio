@@ -1,12 +1,12 @@
 # Hello.
 
-I'm Brian Ryer: Writer.
+I'm Brian Ryer: writer a.k.a. text programmer.
 
 Please continue reading here to learn something about my understanding of technical communication. You can also read more [about&nbsp;me](pages/about.md), review [my&nbsp;resume](pages/resume/resume.md), reach out directly via email [contact@brianryer.com](mailto:contact@brianryer.com) or call me at +1&nbsp;(503)&nbsp;272&#8209;1842.
 
 ---
 
-### TECHNICAL COMMUNICATION 
+### TECHNICAL COMMUNICATION
 
 Technical communication connects those with information to those who need that information. It connects your message to your audience, your clients to your products and services, your employees to your organizational goals.
 
@@ -25,7 +25,7 @@ Communicate with your customers, employees, stakeholders&mdash;any audience that
 Readability is the foundation of successful technical writing.
 {: .inline-slogan}
 
-Adherence to grammar and style rules will ensure your content is legible, but legibility is just the baseline. Readable text is not only clear, direct, and easily understood, but also informative and engaging. This is a function of many factors:
+Adherence to standard grammar and style rules ensure your content is legible, but legibility is just the baseline. Readable text is not only clear, direct, and easily understood, but also informative and engaging. This is a function of many factors:
 
 {: .cols-two}
 - Creating coherent topic structures
@@ -34,7 +34,7 @@ Adherence to grammar and style rules will ensure your content is legible, but le
 - Consistent use of vocabulary
 - Thorough indexing
 - Leverage of delivery channels
-- Designing to user purposes
+- Writing to user purposes
 - Awareness of culture
 - Clean and presentable data
 - Fidelity to subject matter
@@ -55,7 +55,7 @@ Your content has value, and will have more value in the long term when managed r
 
 ---
 
-##### INFORMATION DESIGN & RELEVANCE
+##### TEXT PROGRAMMING & RELEVANCE
 
 ![View Master](assets/img/ib_view_master.png "Label Tag"){: .image-bullet.upit}
 
