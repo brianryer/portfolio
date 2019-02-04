@@ -15,3 +15,17 @@ collections:
   resume_sections:
   resume_skills:
   resume_positions:
+  posts:
+  suits:
+
+atom:
+  buildCommand:
+    - jekyll
+    - build
+    - --option
+    - --this
+  buildEnv:
+    JEKYLL_ENV: development
+  postDirs:
+    - collections/_posts
+  defaultPostDir: collections/_drafts
