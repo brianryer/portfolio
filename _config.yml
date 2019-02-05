@@ -1,5 +1,5 @@
 title: Brian Ryer
-description: Writer | Text Programmer
+description: Writer | Documentarian
 theme: jekyll-theme-minimal
 logo: "/assets/img/forum_image_square.png"
 
@@ -16,6 +16,7 @@ collections:
   resume_skills:
   resume_positions:
   posts:
+  drafts:
   suits:
 
 atom:
