@@ -1,5 +1,5 @@
 title: Brian Ryer
-description: Writer | Documentarian
+description: Writer and Documentarian
 theme: jekyll-theme-minimal
 logo: "/assets/img/forum_image_square.png"
 
@@ -27,6 +27,3 @@ atom:
     - --this
   buildEnv:
     JEKYLL_ENV: development
-  postDirs:
-    - collections/_posts
-  defaultPostDir: collections/_drafts
