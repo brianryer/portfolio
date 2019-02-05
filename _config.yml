@@ -27,3 +27,5 @@ atom:
     - --this
   buildEnv:
     JEKYLL_ENV: development
+  postDirs: collections/_posts
+  defaultPostDir: collections/_drafts
