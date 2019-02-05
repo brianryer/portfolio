@@ -7,7 +7,7 @@ title: Blog
 <div class="listing">
   {%- assign posts = site.posts -%}
   {% for post in posts %}
-  {%- unless post.output -%}
+  {%- unless post.display == 0 -%}
   <post>
   <post-header class="entry-header">
   <h2 class="entry-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
