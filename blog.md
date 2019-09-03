@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 ---
-<h1>Most Recently</h1>
+<h1>Most Recently!</h1>
 
 <div class="listing">
   {%- assign posts = site.posts -%}
