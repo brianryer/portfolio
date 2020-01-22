@@ -2,7 +2,7 @@ title: Brian Ryer
 description: Writer and Documentarian
 theme: jekyll-theme-minimal
 logo: "/assets/img/forum_image_square.png"
-baseurl: /portfolio
+baseurl: /portfolio/
 
 plugins:
   - jekyll-feed
