@@ -2,7 +2,7 @@
 title: Data Resource Group Admin.
 company: Goldman Sachs
 location: Frankfurt, Germany
-dates: 7/1999-6/2003
+dates: 07/1999&ndash;06/2003
 sorter: 199907
 published: true
 display: true

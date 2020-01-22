@@ -1,8 +1,13 @@
+---
+output: true
+layout: default
+---
+
 # Hello.
 
-I'm Brian Ryer, writer and information scientist.
+I'm Brian Ryer, writer and information enthusiast.
 
-Please continue reading here to learn something about my understanding of technical communication. You can also read more [about&nbsp;me](pages/about.md), review [my&nbsp;resume](pages/resume/resume.md), reach out directly via email [contact@brianryer.com](mailto:contact@brianryer.com) or call me at +1&nbsp;(503)&nbsp;272&#8209;1842.
+Please continue reading here to learn something about my understanding of technical communication. You can also read more [about&nbsp;me](pages/about.html), review [my&nbsp;resume](pages/resume/resume.html), reach out directly via email [contact@brianryer.com](mailto:contact@brianryer.com) or call me at +1&nbsp;(503)&nbsp;272&#8209;1842.
 
 ---
 
@@ -14,7 +19,7 @@ Technical communication delivers value by providing people with consistently rel
 
 Communicate with your customers, employees, stakeholders&mdash;any audience that you want to connect with&mdash;by focusing on three principles.
 
-| Readability | Reliability | Relevance|
+| Readability | Reliability | Relevance |
 | --- | --- | --- |
 | Clear, concise, and contextually appropriate messages are the core of successful communication. | Well managed content and delivery systems provide consistency, which builds trust.| Each audience has a point of view. Speak to their perspective and reward their attention. |
 

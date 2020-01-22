@@ -1,5 +1,7 @@
 ---
 title: About
+layout: default
+output: true
 ---
 
 # Hello, again.

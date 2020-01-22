@@ -3,12 +3,16 @@ description: Writer and Documentarian
 theme: jekyll-theme-minimal
 logo: "/assets/img/forum_image_square.png"
 
-paginate: 2
+plugins:
+  - jekyll-feed
 
 tagline_morning: You look great!
 tagline_evening: Enough with the taglines already!
 tagline_special: Soup is good food.
 tagline_super_special: Soup is really good food!
+
+pages:
+  output: true
 
 collections_dir: collections
 collections:
@@ -19,13 +23,3 @@ collections:
   drafts:
   suits:
 
-atom:
-  buildCommand:
-    - jekyll
-    - build
-    - --option
-    - --this
-  buildEnv:
-    JEKYLL_ENV: development
-  postDirs: collections/_posts
-  defaultPostDir: collections/_drafts

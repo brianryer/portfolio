@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog
+output: true
 ---
 <h1>Most Recently!</h1>
 

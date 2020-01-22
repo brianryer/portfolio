@@ -1,5 +1,6 @@
 ---
 verbosity: brief
+layout: default
 ---
 
 {% include_relative resume_menu.md theverbosity=page.verbosity %}
