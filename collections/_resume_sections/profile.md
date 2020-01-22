@@ -5,7 +5,7 @@ display: 1
 
 brief_profile:
 
-  Technical Writer
+  Technical Writer / Information Developer
 
 standard_profile:
 
@@ -13,5 +13,7 @@ standard_profile:
 
 verbose_profile:
 
-  I am a technical writer, content manager, and information designer with well developed skills in data management, web development, and presentation. I am fluent in German, and held a TS/SCI security clearance while living abroad.
+  I am a technical writer, content manager, and information designer 
+  with well developed skills in documentation operations, data management, and web development.
+  I am fluent in German, and held a TS/SCI security clearance.
 ---
