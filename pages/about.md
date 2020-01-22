@@ -1,8 +1,6 @@
 ---
 title: About
 layout: default
-output: true
-permalink: /pages/about.html
 ---
 
 # Hello, again.
