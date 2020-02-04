@@ -1,7 +1,7 @@
 
 companies:
   
-- GS
+- &GS
   name: Goldman Sachs
   location: Frankfurt, Germany
   description: International investment bank

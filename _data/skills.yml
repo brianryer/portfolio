@@ -1,12 +1,10 @@
 {% include_relative_once _data/categories.yml %}
-
 skills:  
-
   - &MSExcel
-      cat: *busidatapres
-      name: MS Excel
-      description: Microsoft's spreadsheet application
-      clue: frequently used for adhoc desktop databases
+    name: MS Excel
+    description: Microsoft's spreadsheet application
+    clue: frequently used for adhoc desktop databases
+    cat: *busidatapres
 
   - &MSAccess
     name: MS Access

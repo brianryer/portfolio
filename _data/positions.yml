@@ -1,8 +1,6 @@
 {% include_relative_once _data/skills.yml %}
 {% include_relative_once _data/categories.yml %}
-
 positions:
-
 - title: Presentation Center Administrator
   company: Goldman Sachs
   location: Frankfurt, Germany
@@ -16,7 +14,6 @@ positions:
   skills:
     - *GIT
     - *SPoint
-    
 - title: Data Resource Group Admin.
   company: Goldman Sachs
   location: Frankfurt, Germany
@@ -27,7 +24,6 @@ positions:
   summary_brief: Analyzed and distributed financial data and news.
   summary_standard: Analyzed and distributed financial data and news with multiple products; acted as web master for Information Services Group intranet; managed content library with multiple sources.
   summary_verbose: Analyzed and distributed financial data and news with multiple products; acted as web master for Information Services Group intranet; managed content library with multiple sources; designed and built conference communications databases in MS Access.
-  
 - title: Publishing Specialist
   company: Content Management Assoc.
   location: Oregon City, OR
