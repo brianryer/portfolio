@@ -1,0 +1,42 @@
+
+companies:
+  
+- GS
+  name: Goldman Sachs
+  location: Frankfurt, Germany
+  description: International investment bank
+  link: gs.com
+  
+- &HP
+  name: Hewlett Packard
+  location: Vancouver, WA
+  description: International technology leader
+  link: hp.com
+  
+- &CMA
+  name: Content Management Associates
+  location: Oregon City, OR
+  description: Financial documentation services startup
+  link: merrill.com
+  note: "acquired by Merril Corp."
+  
+- &CNet
+  name: CollegeNET
+  location: Portland, OR
+  description: University admissions and logistics
+  link: collegenet.com
+
+- &Smarsh
+  name: SMARSH
+  location: Portland, OR
+  description: SasS archiving and compliance
+  link: smarsh.com
+  note: "recently merged with Actiance, Inc."
+
+- &Nxlog
+  name: NXLog
+  location: Portland, OR
+  description: Log collection and processing
+  link: smarsh.com
+  note: "recently merged with Actiance, Inc."
+

@@ -1,3 +1,9 @@
+# BK added this 20200123 cuz
+#    [SSL-specific] Error parsing data files for Liquid content at file
+#    /Users/brian/Sites/portfolio/_data/positions.yml: undefined method `mktmpdir' for Dir:Class
+#    Did you mean?  mkdir
+require "tmpdir"
+
 # Treat every _data file as liquid.
 # This allows us to include YAML files in other YAML files.
 module Jekyll
@@ -22,7 +28,7 @@ module Jekyll
         # read_data_file parses the name of the file to use as its
         # variable name in site.data so it's important to make the
         # temp file name match the original file name.
-        Dir.mktmpdir do |tmp_dir|
+          Dir.mktmpdir do |tmp_dir|
           tmp_path = File.join(tmp_dir, filename)
           File.write(tmp_path, rendered)
           read_data_file_without_liquid(tmp_path)
@@ -40,3 +46,25 @@ module Jekyll
     alias_method :read_data_file, :read_data_file_with_liquid
   end
 end
+
+# Only include the given file one time (in this call tree)
+# Useful for files that include files that include the original file
+module Jekyll
+  module Tags
+    class IncludeRelativeOnceTag < IncludeRelativeTag
+      # Create a flag that indicates we're already 1 level
+      # deep in the inclusion, and don't go any farther down
+      SENTINEL = 'included_relative_once'
+      def render(context)
+        context.stack do
+          unless context[SENTINEL]
+            context[SENTINEL] = true
+            super(context)
+          end
+        end
+      end
+    end
+  end
+end
+
+Liquid::Template.register_tag("include_relative_once", Jekyll::Tags::IncludeRelativeOnceTag)

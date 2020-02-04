@@ -1,0 +1,56 @@
+{% include_relative_once _data/skills.yml %}
+
+categories:
+  
+- &busidatapres
+  name: "Business Data & Presentation"
+  skills: 
+    - *DStream
+    - *MSExcel
+    - *MSAccess
+    - *Reuters
+    - *BBerg
+    - *R
+- &contmgmt
+  name: "Content Management"
+  skills: 
+    - *Confluence
+    - *SPoint
+    - *ABridge
+    - *Wordpress
+- &graphpres
+  name: "Graphics & Presentation"
+  skills: 
+    - *PowerPoint
+    - *Visio
+    - *Keynote
+- &projmgmt
+  name: "Project & Task Management"
+  skills: 
+    - *GTD
+    - *Jira
+    - *Asana
+    - *Slack
+    - *BaseCamp
+    - *MSProject
+    - *Agile
+- &webtech
+  name: "Web Technologies"
+  skills: 
+    - *Jekyll
+    - *Confluence
+    - *SPoint
+    - *WordPress
+    - *GIT
+    - *ABridge
+    - *Wiki
+- &writeedit
+  name: "Writing & Editing"
+  skills: 
+    - *Atom
+    - *Ulysses
+    - *MSWord
+    - *oXygen
+    - *FrameMaker
+    - *AdobeAcrobat
+    - *Markdown

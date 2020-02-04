@@ -1,0 +1,64 @@
+{% include_relative_once _data/categories.yml %}
+
+skills:  
+
+  - &MSExcel
+      cat: *busidatapres
+      name: MS Excel
+      description: Microsoft's spreadsheet application
+      clue: frequently used for adhoc desktop databases
+
+  - &MSAccess
+    name: MS Access
+    cat: *busidatapres
+
+  - &Reuters
+    name: Reuters
+    cat: *busidatapres
+
+  - &DStream
+    name: Datastream
+    cat: *busidatapres
+
+  - &BBerg 
+    name: Bloomberg
+    cat: *busidatapres
+
+  - &R
+    name: R
+    cat: *busidatapres
+
+  - &Jekyll
+    name: Jekyll
+    cat: *webtech
+
+  - &Confluence
+    name: Confluence
+    cat: *webtech
+
+  - &SPoint
+    name: SharePoint
+    cat: *webtech
+
+  - &WPress
+    name: Wordpress
+    cat: *webtech
+
+  - &GIT
+    name: GIT
+    cat: *webtech
+
+  - &ABridge
+    name: "Adobe Bridge"
+    cat: *webtech
+
+  - &Wiki
+    name: Wiki Variants
+    cat: *webtech
+
+  - &PowerPoint
+    name: MS PowerPoint
+    cat: *graphpres
+
+
+
