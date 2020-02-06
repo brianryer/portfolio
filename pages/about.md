@@ -1,6 +1,7 @@
 ---
 title: About
 layout: default
+permalink: pages/about.html
 ---
 
 # Hello, again.
