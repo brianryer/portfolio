@@ -1,7 +1,6 @@
 ---
 title: About
 layout: default
-permalink: /portfolio/pages/about.html
 ---
 
 # Hello, again.
