@@ -1,7 +1,6 @@
 ---
 verbosity: standard
 layout: default
-permalink: pages/resume/resume.html
 ---
 
 {% include_relative resume_menu.md theverbosity=page.verbosity %}
