@@ -5,7 +5,7 @@ layout: default
 
 # Hello.
 
-I'm Brian Ryer, writer and developer.
+I'm Brian Ryer, technical writer.
 
 Please continue reading here to learn something about my understanding of technical communication. You can also read more [about&nbsp;me](pages/about.html), review [my&nbsp;resume](pages/resume/resume.html), reach out directly via email [contact@brianryer.com](mailto:contact@brianryer.com) or call me at +1&nbsp;(503)&nbsp;272&#8209;1842.
 
