@@ -3,7 +3,7 @@ output: true
 layout: default
 ---
 
-# Welcome - BK Ryer
+# Welcome
 
 **Hi!** I'm Brian Ryer, technical writer and human person.
 
