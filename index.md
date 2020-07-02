@@ -7,7 +7,7 @@ layout: default
 
 **Hi!** I'm Brian Ryer, technical writer and human person.
 
-Continue reading below to learn a little [about&nbsp;me](pages/about.html) and how I think about technical communication. You can check out more [recent writing](/blog), review [my&nbsp;resume](pages/resume/resume.html), reach out via email [contact@brianryer.com](mailto:contact@brianryer.com), or call me @ +1&nbsp;(503)&nbsp;272&#8209;1842.
+Continue reading below to learn a little [about&nbsp;me](pages/about.html) and how I think about technical communication. You can check out more [recent writing](/portfolio/blog), review [my&nbsp;resume](pages/resume/resume.html), reach out via email [contact@brianryer.com](mailto:contact@brianryer.com), or call me @ +1&nbsp;(503)&nbsp;272&#8209;1842.
 
 **Thanks for visiting!**
 
