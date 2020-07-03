@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyll's the doctor."
+title:  "Jekyll is the doctor."
 tags: [build-log, getting-started]
 time-comment: ...middle of the afternoon...
 ---
