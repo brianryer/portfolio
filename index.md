@@ -62,7 +62,7 @@ Your content has value, and will have more value in the long term when managed r
 
 ---
 
-##### TEXT PROGRAMMING & RELEVANCE
+##### INFORMATION DESIGN & RELEVANCE
 
 ![View Master](assets/img/ib_view_master.png "Label Tag"){: .image-bullet.upit}
 
