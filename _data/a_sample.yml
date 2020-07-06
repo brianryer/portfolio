@@ -10,7 +10,7 @@ samples:
   
 - title: Presentation Center Administrator
   company: Goldman Sachs
-  - *thething
+  *thething
   location: Frankfurt, Germany
   dates: 6/1995-6/1999
   sorter: 199506
