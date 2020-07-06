@@ -1,6 +1,7 @@
 ---
 title: About Prime
 layout: default
+output: true
 ---
 
 # Hello, again, again.
