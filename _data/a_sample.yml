@@ -1,5 +1,8 @@
+thethings:
 - &thething                        #
   name: this is the thing
+- &theotherthing                        #
+  name: this is the other thing
 
 samples:  
 - title: Presentation Center Administrator
@@ -18,7 +21,7 @@ samples:
 - title: Data Resource Group Admin.
   company: Goldman Sachs
   things: 
-    - *thething
+    - *theotherthing
   location: Frankfurt, Germany
   dates: 07/1999&ndash;06/2003
   sorter: 199907
