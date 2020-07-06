@@ -35,8 +35,8 @@ companies:
 
 - &Nxlog
   name: NXLog
-  location: Portland, OR
+  location: Budapest, Hungary
   description: Log collection and processing
-  link: smarsh.com
-  note: "recently merged with Actiance, Inc."
+  link: nxlog.com
+  note: "open source log management"
 
