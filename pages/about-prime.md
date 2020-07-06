@@ -10,8 +10,8 @@ output: true
   {%- assign sorted_sections = site.data.a_sample -%}
   {%- for section in sorted_sections -%}
 
-      <div class="{{ section.name }}">
-        <h1>{{ section.name }}</h1>
+      <div class="{{ section.company }}">
+        <h1>{{ section.company }}</h1>
       </div>
 
   {%- endfor -%}
