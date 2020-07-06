@@ -1,6 +1,5 @@
-&thething                        #
+- &thething                        #
   name: this is the thing
-  spirit_animal: Otter
 
 samples:  
 - title: Presentation Center Administrator
