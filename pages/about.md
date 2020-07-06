@@ -9,7 +9,7 @@ output: true
 I'm Brian Ryer. If you're looking for my personal site, you've found it. My personal demo site.
 
 <div id="body">
-  {%- assign sorted_sections = site.data.skills -%}
+  {%- assign sorted_sections = site.data.a_sample -%}
   {%- for section in sorted_sections -%}
 
       <div class="{{ section.name }}">

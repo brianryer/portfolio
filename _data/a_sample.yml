@@ -1,6 +1,3 @@
-# {% include_relative_once _data/skills.yml %}
-# {% include_relative_once _data/categories.yml %}
-positions:
 - title: Presentation Center Administrator
   company: Goldman Sachs
   location: Frankfurt, Germany
@@ -11,9 +8,6 @@ positions:
   summary_brief: Led and coordinated 10 member presentation team.
   summary_standard: Led and coordinated 10 member presentation team; designed and built presentations; designed and built time sheet application.
   summary_verbose: Led and coordinated 10 member presentation team; designed and built presentations with MS PowerPoint for internal and external clients; designed and built time sheet application in MS Excel.
-  skills:
-    - *GIT
-    - *SPoint
 - title: Data Resource Group Admin.
   company: Goldman Sachs
   location: Frankfurt, Germany
