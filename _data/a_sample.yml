@@ -1,8 +1,8 @@
 thethings:
 - &thething                        #
-  name: this is the thing
+  name: this is the thing, actually
 - &theotherthing                        #
-  name: this is the other thing
+  name: this is the other thing, really
 
 samples:  
 - title: Presentation Center Administrator
