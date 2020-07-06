@@ -13,7 +13,7 @@ output: true
       <div class="{{ section.company }}">
         <h3>{{ section.company }}</h3>
         <p>{{ section.summary_brief }}</p>
-        <p>{{ section.thething }}</p>
+        <p>{{ section.name }}</p>
       </div>
 
   {%- endfor -%}

@@ -6,24 +6,11 @@ thethings:
     name: this is the other thing
     spirit_animal: Penguin
 
-projects:
-  - name: Mercator
-    features: Cylindricallity
-    people:
-      - *dan                    #
-  - name: Armadillo
-    features: Compromise
-    people:
-      - *dan                    #
-      - *lois                   #
-    
-
-
 samples:
   
 - title: Presentation Center Administrator
   company: Goldman Sachs
-  - *thething:
+  - *thething
   location: Frankfurt, Germany
   dates: 6/1995-6/1999
   sorter: 199506
