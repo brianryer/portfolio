@@ -1,8 +1,7 @@
 
 &thething: 
-  thisthing: this is the thing
-&theotherthing:
-  theotherthing: this is the other thing
+  - thisthing: this is the thing
+  - theotherthing: this is the other thing
   
 samples:
 - title: Presentation Center Administrator
