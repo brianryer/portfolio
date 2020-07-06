@@ -7,7 +7,7 @@ output: true
 # Hello, again, again.
 
 <div id="body">
-  {%- assign sorted_sections = site.data.skills -%}
+  {%- assign sorted_sections = site.data.a_sample -%}
   {%- for section in sorted_sections -%}
 
       <div class="{{ section.name }}">
