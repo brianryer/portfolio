@@ -1,9 +1,6 @@
-samples_preset: 
-  
-&thething: 
-  this: this is the thing
-&theotherthing: 
-  the_other: this is the other thing
+
+&thething: this is the thing
+&theotherthing: this is the other thing
   
 samples:
 - title: Presentation Center Administrator
