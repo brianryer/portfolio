@@ -11,7 +11,8 @@ output: true
   {%- for section in sorted_sections -%}
 
       <div class="{{ section.company }}">
-        <p>{{ section.company }}</p>
+        <h3>{{ section.company }}</h3>
+        <p>{{ section.summary_brief }}</p>
       </div>
 
   {%- endfor -%}
