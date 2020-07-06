@@ -9,12 +9,11 @@ output: true
 <div id="body">
   {%- assign sorted_sections = site.data.skills -%}
   {%- for section in sorted_sections -%}
-  {%- unless section.display == 0 -%}
+
       <div class="{{ section.name }}">
         <h1>{{ section.name }}</h1>
-        <p >{{ section.description }}</p>
       </div>
-  {%- endunless -%}
+
   {%- endfor -%}
 </div>
 
