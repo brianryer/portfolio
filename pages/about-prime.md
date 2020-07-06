@@ -12,7 +12,7 @@ output: true
   {%- unless section.display == 0 -%}
       <div class="{{ section.name }}">
         <h1>{{ section.name }}</h1>
-        <p class="{{ section.name }} body">{{ section.description }}</p>
+        <p >{{ section.description }}</p>
       </div>
   {%- endunless -%}
   {%- endfor -%}
