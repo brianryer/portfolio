@@ -1,12 +1,11 @@
 
-&thething: 
-  - thisthing: this is the thing
-  - theotherthing: this is the other thing
+thething: 
+  - &thisthing: this is the thing
   
 samples:
 - title: Presentation Center Administrator
   company: Goldman Sachs
-  *thething
+  *thisthing
   location: Frankfurt, Germany
   dates: 6/1995-6/1999
   sorter: 199506
@@ -17,7 +16,7 @@ samples:
   summary_verbose: Led and coordinated 10 member presentation team; designed and built presentations with MS PowerPoint for internal and external clients; designed and built time sheet application in MS Excel.
 - title: Data Resource Group Admin.
   company: Goldman Sachs
-  *thething
+  *thisthing:
   location: Frankfurt, Germany
   dates: 07/1999&ndash;06/2003
   sorter: 199907
@@ -28,7 +27,7 @@ samples:
   summary_verbose: Analyzed and distributed financial data and news with multiple products; acted as web master for Information Services Group intranet; managed content library with multiple sources; designed and built conference communications databases in MS Access.
 - title: Publishing Specialist
   company: Content Management Assoc.
-  *thething
+  *thisthing:
   location: Oregon City, OR
   dates: 6/2005-6/2007
   sorter: 200506
