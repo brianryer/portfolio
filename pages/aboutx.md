@@ -13,7 +13,6 @@ output: true
       <div class="{{ section.company }}">
         <h3>{{ section.company }}</h3>
         <p>{{ section.summary_brief }}</p>
-        <p>{{ section.name }}</p>
           {%- assign things = section.things -%}
           {%- for thing in things -%}
             <p>{{ thing.name}}</p>

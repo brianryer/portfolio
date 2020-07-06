@@ -7,7 +7,7 @@ thethings:
 samples:  
 - title: Presentation Center Administrator
   company: Goldman Sachs
-  thinhgs:
+  things:
     - *thething
   location: Frankfurt, Germany
   dates: 6/1995-6/1999
@@ -20,7 +20,7 @@ samples:
 
 - title: Data Resource Group Admin.
   company: Goldman Sachs
-  thinhs:
+  things:
     - *thething
     - *theotherthing
   location: Frankfurt, Germany
