@@ -8,7 +8,7 @@ output: true
 
 I'm Brian Ryer. If you're looking for my personal site, you've found it. My personal demo site.
 
-My [actual personal site](https://brianryer.com/about) is over on SquareSpace. They're a [great host](https://squarespace.com).
+My [actual personal site](http://brianryer.com/about) is over on SquareSpace. They're a [great host](http://squarespace.com).
 
 I live with my family in the Pacific Northwest–Portland, Oregon specifically–where we enjoy as many of the things the region has to offer which time and inclination allow. It is a beautiful part of the country, both in its natural surroundings and in the kind of people that have been drawn here over the years. Viva Cascadia!
 
