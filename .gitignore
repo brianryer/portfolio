@@ -3135,3 +3135,4 @@ vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/h
 vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser-java/Makefile
 vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser/Makefile
 vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/lib/ruby_http_parser.bundle
+.DS_Store
