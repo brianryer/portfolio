@@ -3136,3 +3136,8 @@ vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/h
 vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser/Makefile
 vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/lib/ruby_http_parser.bundle
 .DS_Store
+.DS_Store
+.sass-cache/c291bb4ef4c21042871e3cb4957bd7f1cb5eb99d/fonts.scssc
+.sass-cache/c291bb4ef4c21042871e3cb4957bd7f1cb5eb99d/jekyll-theme-minimal.scssc
+.sass-cache/c291bb4ef4c21042871e3cb4957bd7f1cb5eb99d/rouge-github.scssc
+.DS_Store
