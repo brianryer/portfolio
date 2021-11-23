@@ -1,22 +1,24 @@
 # my bs
-
-title: Brian Ryer
-description: Technical Writer
+title: BK Ryer
+description: Technical Writer | Human Person
+email: bkryer@gmail.com
+# build
+markdown: kramdown
+exclude: ['*.Rmd'] # this is important to use with RMarkdown
 theme: jekyll-theme-minimal
 logo: "/assets/img/forum_image_square.png"
 plugins:
   - jekyll-feed
-
 pages:
   output: true
-
+# custom
 collections_dir: collections
 collections:
   resume_sections:
   resume_skills:
   resume_positions:
   posts:
-      output          : true
+      output: true
   drafts:
   suits:
 
