@@ -19,6 +19,5 @@ collections:
   resume_positions:
   posts:
       output: true
-  drafts:
-  suits:
+  drafts:=
 

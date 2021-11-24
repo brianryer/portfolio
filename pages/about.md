@@ -6,12 +6,6 @@ output: true
 
 # Hello, again.
 
-I was born in New York, grew up in Las Vegas, spent my teen years in Southern California, and lived in Europe for about 20 years before putting down roots here in Stumptown. Whew!
-
-I trust you'll take away something useful from what you find here. 
-
-------------------------------------------------------------------------
-
 I'm Brian Ryer. If you're looking for my personal site, you've found it. Also, if you're looking for my professional site, you've found that, too. Take a look at the .com page for details.
 
 Based in Portland, Oregon, I enjoy as much of what the Pacific Northwest has on offer for which time and inclination allow. It is a beautiful part of the country, both in its natural surroundings and in the kind of people attracted here over the years. Viva Cascadia!
