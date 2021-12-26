@@ -7,7 +7,7 @@ layout: default
 
 **Hi!** I am BK Ryer, technical writer and human person.
 
-Continue reading below to learn a little [about me](pages/about.html) and how I think about technical communication. You can check out more [recent writing](blog.html), review [my resume](pages/resume/resume.html), reach out via email [contact\@brianryer.com](mailto:contact@brianryer.com), or call me \@ +1 (503) 272‑1842.
+Continue reading below to learn a little [about me](pages/about.html) and how I think about technical communication. You can check out more [recent writing](blog.html), review [my resume](pages/resume/resume.html), reach out via email [contact@brianryer.com](mailto:contact@brianryer.com), or call me @ +1 (503) 272‑1842.
 
 **Thanks for visiting!**
 
@@ -29,11 +29,22 @@ Communicate with your customers, employees, stakeholders---any audience that you
 
 ![Letter Tile](assets/img/ib_scrabble_t.png "Letter Tile"){:.image-bullet}
 
-Readability is the foundation of successful technical writing. {: .inline-slogan}
+{:.inline-slogan}
+Readability is the foundation of successful technical writing.
 
 Adherence to standard grammar and style rules ensure your content is legible, but legibility is just the baseline. Readable text is not only clear, direct, and easily understood, but also informative and engaging. This is a function of many factors:
 
-{: .cols-two} - Creating coherent topic structures - Provision of simple navigation - Adherence to platform conventions - Consistent use of vocabulary - Thorough indexing - Leverage of delivery channels - Writing to user purposes - Awareness of culture - Clean and presentable data - Fidelity to subject matter
+{:.cols-two}
+ - Creating coherent topic structures
+ - Provision of simple navigation
+ - Adherence to platform conventions
+ - Consistent use of vocabulary
+ - Thorough indexing
+ - Leverage of delivery channels
+ - Writing to user purposes
+ - Awareness of culture
+ - Clean and presentable data
+ - Fidelity to subject matter
 
 Keeping these factors in mind during content creation ensures the content is highly readable, in the format and context most appropriate for the audience. Content that is clear, accurate, and inviting to your audience---this is content that is read, and that is the point, isn't it?
 
@@ -41,7 +52,7 @@ Keeping these factors in mind during content creation ensures the content is hig
 
 ##### CONTENT MANAGEMENT & RELIABILITY
 
-![Label Tag](assets/img/ib_label_tag.png "Label Tag"){: .image-bullet.upit}
+![Label Tag](assets/img/ib_label_tag.png "Label Tag"){:.image-bullet.upit}
 
 Over time, two things happen to content: it expands and delivery options for it multiply. As a result, managing content is simple in the same way that lion taming is simple---what needs to be done is easy to understand, but doing it requires expertise, stamina, and even a little courage.
 
@@ -55,7 +66,8 @@ Your content has value, and will have more value in the long term when managed r
 
 ![View Master](assets/img/ib_view_master.png "Label Tag"){: .image-bullet.upit}
 
-"It's not what you say, but how you say it." {: .inline-slogan}
+ {:.inline-slogan}
+ "It's not what you say, but how you say it."
 
 Information design is the art and science of how you say it.
 

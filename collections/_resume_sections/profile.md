@@ -5,11 +5,11 @@ display: 1
 
 brief_profile:
 
-  Technical Writer / Information Developer
+  Technical Writer / Information Designer
 
 standard_profile:
 
-  Technical writer with doc ops and web dev skills, fluent in German.
+  Technical writer with information design and web dev skills, fluent in German.
 
 verbose_profile:
 

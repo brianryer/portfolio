@@ -1,6 +1,6 @@
 # {% include_relative_once _data/skills.yml %}
 categories:
-- &busidatapres
+- &businessdatapresentation
   name: "Business Data & Presentation"
   skills: 
     - *DStream
@@ -9,20 +9,20 @@ categories:
     - *Reuters
     - *BBerg
     - *R
-- &contmgmt
+- &contentmanagement
   name: "Content Management"
   skills: 
     - *Confluence
     - *SPoint
     - *ABridge
     - *Wordpress
-- &graphpres
+- &graphicspresentation
   name: "Graphics & Presentation"
   skills: 
     - *PowerPoint
     - *Visio
     - *Keynote
-- &projmgmt
+- &projecttaskmanagement
   name: "Project & Task Management"
   skills: 
     - *GTD
@@ -32,7 +32,7 @@ categories:
     - *BaseCamp
     - *MSProject
     - *Agile
-- &webtech
+- &webtechnology
   name: "Web Technologies"
   skills: 
     - *Jekyll

@@ -4,49 +4,49 @@ skills:
     name: MS Excel
     description: Microsoft's spreadsheet application
     clue: frequently used for adhoc desktop databases
-    cat: *busidatapres
+    cat: *businessdatapresentation
 
   - &MSAccess
     name: MS Access
-    cat: *busidatapres
+    cat: *businessdatapresentation
 
   - &Reuters
     name: Reuters
-    cat: *busidatapres
+    cat: *businessdatapresentation
 
-  - &DStream
+  - &DataStream
     name: Datastream
-    cat: *busidatapres
+    cat: *businessdatapresentation
 
-  - &BBerg 
+  - &Bloomberg 
     name: Bloomberg
-    cat: *busidatapres
+    cat: *businessdatapresentation
 
   - &R
     name: R
-    cat: *busidatapres
+    cat: *businessdatapresentation
 
   - &Jekyll
     name: Jekyll
-    cat: *webtech
+    cat: *webtechnology
 
   - &Confluence
     name: Confluence
-    cat: *webtech
+    cat: *webtechnology
 
-  - &SPoint
+  - &SharePoint
     name: SharePoint
-    cat: *webtech
+    cat: *webtechnology
 
-  - &WPress
+  - &WordPress
     name: Wordpress
-    cat: *webtech
+    cat: *webtechnology
 
   - &GIT
     name: GIT
-    cat: *webtech
+    cat: *webtechnology
 
-  - &ABridge
+  - &AdobeBridge
     name: "Adobe Bridge"
     cat: *webtech
 
@@ -54,9 +54,9 @@ skills:
     name: Wiki Variants
     cat: *webtech
 
-  - &PowerPoint
+  - &MSPowerPoint
     name: MS PowerPoint
-    cat: *graphpres
+    cat: *graphicpresentation
 
 
 

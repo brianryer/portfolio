@@ -1,6 +1,10 @@
 collections/.DS_Store
-_site/feed.xml
-_site/blog.html
-_site/2020/01/04/happy-holidays.html
+_site/*
 .DS_Store
 .Rproj.user
+.sass-cache
+.jekyll-cache
+.git
+.bundle
+
+

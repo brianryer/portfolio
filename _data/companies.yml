@@ -1,13 +1,13 @@
 
 companies:
   
-- &GS
+- &GoldmanSachs
   name: Goldman Sachs
   location: Frankfurt, Germany
   description: International investment bank
   link: gs.com
   
-- &HP
+- &HewlettPackard
   name: Hewlett Packard
   location: Vancouver, WA
   description: International technology leader
@@ -20,7 +20,7 @@ companies:
   link: merrill.com
   note: "acquired by Merril Corp."
   
-- &CNet
+- &CollegeNet
   name: CollegeNET
   location: Portland, OR
   description: University admissions and logistics
