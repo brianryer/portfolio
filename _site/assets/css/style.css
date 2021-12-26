@@ -214,7 +214,9 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
 
 header img.site-logo { border: solid 2px slategray; border-radius: 6px; margin-left: -2px; max-width: 250px !important; }
 
-header h3.titles { color: slategray; opacity: 80%; }
+header h3.titles { color: slategray; opacity: 80%; margin-top: .25rem; }
+
+header hr { width: 100%; margin: -.8rem 0 1.25rem 0 !important; }
 
 section img.image-bullet { float: left; margin: 0 1rem 1rem 0; }
 
