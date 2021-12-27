@@ -2,9 +2,10 @@ collections/.DS_Store
 _site/*
 .DS_Store
 .Rproj.user
-.sass-cache
-.jekyll-cache
-.git
-.bundle
+.sass-cache/*
+.jekyll-cache/*
+.git/*
+vendor/*
 
 
+_site/feed.xml
