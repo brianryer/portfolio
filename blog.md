@@ -19,7 +19,7 @@ output: true
       {% endunless %}
   {% endfor %}
 </div>
-
+<div class="pager">
 <!-- If this is a post, show previous/next post links -->
 {% if page.id %}
 
@@ -32,3 +32,4 @@ output: true
   {% endif %}
 
 {% endif %}
+</div>

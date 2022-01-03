@@ -7,7 +7,7 @@ layout: default
 
 **Hi!** I am BK Ryer, technical writer and human person.
 
-Continue reading below to learn a little [about me](pages/about.html) and how I think about technical communication. You can check out more [recent writing](blog.html), review [my resume](pages/resume/resume.html), reach out via email [contact@brianryer.com](mailto:contact@brianryer.com), or call me @ +1 (503) 272‑1842.
+Continue reading below to learn a little [about me](pages/about.html) and how I think about technical communication. You can check out more [recent writing](blog.html), review [my resume](pages/resume/resume.html), reach out via twitter [@bkryer](https:/twitter.com/bkryer), or call me @ +1 (503) 272‑1842.
 
 **Thanks for visiting!**
 

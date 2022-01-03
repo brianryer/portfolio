@@ -212,7 +212,7 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
 
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
 
-header img.site-logo { border: solid 2px slategray; border-radius: 6px; margin-left: -2px; max-width: 250px !important; }
+header img.site-logo { border: solid 2px slategray; border-radius: 6px; margin-left: -2px; max-width: 125px !important; }
 
 header h3.titles { color: slategray; opacity: 80%; margin-top: .25rem; }
 
